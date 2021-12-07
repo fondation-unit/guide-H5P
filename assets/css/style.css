@@ -7,9 +7,10 @@
    3. Home Section and Navigation Menu 
    4. Introduction
    5. Listing
+   6. Footer
 
    Pages d'exemple
-   6. Exemple section
+   7. Exemple section
 
  
 */
@@ -150,6 +151,7 @@ li {
 ---------------------------------------------------------------------- */
 section{
     padding-top:30px !important;
+    padding-bottom: 40px !important;
 }
 .home-section {
     width: 100%;
@@ -379,6 +381,22 @@ section{
 .col-inner-kit:hover .fa{
   color: #666666;
 }
+
+/* Footer
+---------------------------------------------------------------------- */
+.footer-section {
+    background: #666666;
+    padding: 50px 0px;
+    color: #f8f8f8;
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.footer-section a {
+    color: #ffffff;
+}
 /* Pages d'exemple
 ---------------------------------------------------------------------------------------------------------------- */
 /* Exemple section
@@ -387,28 +405,3 @@ iframe{
   
   width: 100%;
 }
-/*.list-exemple-kit{
-  
-padding: 10px 0;
-text-align: center;
-margin-right: 0 !important;
-}
-.exemple-kit{
-  display: inline-block;
-  vertical-align: top;
-  border-radius: 0 0 15px 0;
-  box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
-  margin: 5px 5px 5px 5px;
-  padding: 15px;
-  min-height: 140px !important;
-  background: #F8F8F8;
-}
-.exemple-kit h4{
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.exemple-kit .fa{
-  color : #369bd1;
-  margin-bottom: 10px;
-  border: 1.5px dotted #369bd1;
-}*/
