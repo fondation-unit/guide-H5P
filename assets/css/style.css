@@ -7,9 +7,10 @@
    3. Home Section and Navigation Menu 
    4. Introduction
    5. Listing
+   6. Footer
 
    Pages d'exemple
-   6. Exemple section
+   7. Exemple section
 
  
 */
@@ -50,7 +51,7 @@ img {
 }
 
 a:hover {
-    color: #333;
+    color: #369bd1 !important;
     text-decoration: none !important;
 }
 
@@ -150,6 +151,7 @@ li {
 ---------------------------------------------------------------------- */
 section{
     padding-top:30px !important;
+    padding-bottom: 40px !important;
 }
 .home-section {
     width: 100%;
@@ -270,15 +272,20 @@ section{
 .control:hover {
     background: #3f3f3f;
 }
-.dynamique-media {
-  border-top:2px dotted  #369bd1;
-  margin: auto;
-  padding-top: 10px;
-}
 .type-media {
+  display: inline-flex;
+  background-image: linear-gradient(45deg, #a2dcec, 100%, #a2dcec);
+  background-position: 0px 100%;
+  background-position-x: 0px;
+  background-position-y: 100%;
+  background-repeat: repeat-x;
+  background-size: 100% 2px;
+  box-sizing: border-box;
   padding-bottom: 10px;
 }
-
+.dynamique-media {
+  padding-top: 10px;
+}
 .container {
     padding: 10px 0;
     text-align: center;
@@ -303,7 +310,6 @@ section{
 .mix {
   height: auto;
 }
-
 .mix .col-inner {
   display: inline-block;
   vertical-align: top;
@@ -317,7 +323,16 @@ section{
   padding: 10px;
   width: 100%;
 }
-
+.col-inner:hover {
+  border-radius: 2px 2px 2px 40px;
+}
+.col-inner:hover,
+.col-inner-kit:hover{
+  top: -5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+}
 .mix .col-inner p {
   font-size: 1.2em;
 }
@@ -356,10 +371,6 @@ section{
 }
 .col-inner-kit:hover {
   border-radius: 200px 200px 10px 200px;
-  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-  top: -5px;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 .col-inner-kit p{
   padding: 15px 0 15px 0!important;
@@ -370,6 +381,32 @@ section{
 .col-inner-kit:hover .fa{
   color: #666666;
 }
+
+/* Footer
+---------------------------------------------------------------------- */
+.footer-section {
+    background: #666666;
+    padding: 50px 0px;
+    color: #f8f8f8;
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.footer-section a {
+    color: #ffffff;
+}
+
+
+.footer-section .justify-content-md-center {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
 /* Pages d'exemple
 ---------------------------------------------------------------------------------------------------------------- */
 /* Exemple section
@@ -378,28 +415,3 @@ iframe{
   
   width: 100%;
 }
-/*.list-exemple-kit{
-  
-padding: 10px 0;
-text-align: center;
-margin-right: 0 !important;
-}
-.exemple-kit{
-  display: inline-block;
-  vertical-align: top;
-  border-radius: 0 0 15px 0;
-  box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
-  margin: 5px 5px 5px 5px;
-  padding: 15px;
-  min-height: 140px !important;
-  background: #F8F8F8;
-}
-.exemple-kit h4{
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.exemple-kit .fa{
-  color : #369bd1;
-  margin-bottom: 10px;
-  border: 1.5px dotted #369bd1;
-}*/
