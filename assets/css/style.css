@@ -397,6 +397,16 @@ section{
 .footer-section a {
     color: #ffffff;
 }
+
+
+.footer-section .justify-content-md-center {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
 /* Pages d'exemple
 ---------------------------------------------------------------------------------------------------------------- */
 /* Exemple section
