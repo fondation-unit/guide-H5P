@@ -1,0 +1,382 @@
+/*
+   
+   Table Of Content
+   
+   1. Global Style
+   2. Preloader
+   3. Home Section and Navigation Menu
+   4. About Me
+   5. Portfolio
+   6. Testimonial
+   7. Statistics
+   8. Services
+   9. Call to Action
+  10. Contact Us
+  11. Social Icons
+  12. Footer
+  13. Responsive
+  14. Scroll To Top
+  15. Useful Classes ( Such as : Margin, Padding, colors  "This classes will be helpful for you during designing/development time.")
+  16. UiPasta Credit
+ 
+*/
+
+/* Global Style
+---------------------------------------------------------------------- */
+body {
+    font-size: 16px ;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    height: 100%;
+    font-family: 'Poppins', sans-serif !important;
+    color: #333;
+}
+html,
+body {
+    height: 100%;
+    background: #f2f2f2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    width: 100%;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none !important;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none !important;
+    color: white;
+}
+
+p {
+    line-height: 32px;
+    font-size: 16px;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* section title, p, ul, li....
+---------------------------------------------------------------------- */
+.container-fluid {
+  padding-right: 45px !important;
+  padding-left: 45px !important;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    padding: 10px 0;
+    width: auto;
+    margin-bottom: 40px;
+    border: 0;
+    display: inline-flex;
+    background-image: linear-gradient(45deg, #369bd1, 100%, #369bd1);
+    background-position: 0px 100%;
+    background-position-x: 0px;
+    background-position-y: 100%;
+    background-repeat: repeat-x;
+    background-size: 100% 2px;
+    box-sizing: border-box;
+}
+.section-title p {
+    font-weight: 400;
+    line-height: 25px;
+    color: #333;
+    font-size: 16px;
+}
+.kit-dev-section,
+.donnees-section,
+.exemple2-section{
+  background: #E0E0E0;
+}
+.exemple-section,
+.listing-section,
+.too{
+  background: #F4F4F4;
+}
+.donnees-section h2,
+.too-section h2,
+.kit-dev-section p,
+.donnees-section p,
+.exemple-section p,
+.too-section p,
+.kit-dev-section ul,
+.donnees-section ul,
+.exemple-section ul,
+.too-section ul,
+.kit-dev-section h3,
+.donnees-section h3,
+.exemple-section h3,
+.too-section h3{
+  padding: 0 40px 30px 40px !important;
+}
+.kit-dev-section h3,
+.donnees-section h3,
+.exemple-section h3,
+.too-section h3{
+  padding: 0 40px 0px 40px !important;
+}
+/* Home Section and Navigation Menu 
+---------------------------------------------------------------------- */
+section{
+    padding-top:30px !important;
+}
+.home-section {
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #E0E0E0;
+    position: fixed;
+    z-index: 9999;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+.navigation-background {
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: #666666;
+  position: fixed;
+  z-index: 9999;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.home-section a{
+    color: #333;
+}
+.navigation-background a{
+  color: white;
+}
+.introduction-section {
+    background: #E0E0E0;
+    padding: 100px 0;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.margin-top-100 {
+  margin-top: 100px !important;
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+.slogan {
+    padding-top: 28px;
+}
+.slogan a {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 14px;
+    text-decoration: none;
+}
+.navigation-menu .slogan{
+      display: block !important;
+}
+.navigation-menu .navbar-nav li a {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 30px 15px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    font-weight: 600;
+    float: right !important;
+    list-style: none;
+}
+
+/* Introduction
+---------------------------------------------------------------------- */
+.button-ancre {
+  text-align: center;
+  margin: 30px 0;
+}
+.button-ancre .control{
+  padding: 20px;
+  float: none !important;
+}
+.button-ancre:hover a,
+.button-ancre:focus a {
+	color: #ffffff !important;
+}
+.introduction-section-listing img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 160px;
+  height: auto;
+  opacity: 0.4;
+  width: 15%;
+  margin: auto;
+}
+
+/* Listing
+---------------------------------------------------------------------- */
+.controls {
+    padding: 10px 0;
+    text-align: center;
+}
+.control {
+    position: relative;
+    display: inline-block;
+    background: #a6a6a6;
+    cursor: pointer;
+    color: white;
+    margin: 5px 10px;
+    transition: background 150ms;
+    padding: 5px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+}
+.mixitup-control-active {
+    background: #444;
+}
+.control:hover {
+    background: #3f3f3f;
+}
+.dynamique-media {
+  border-top:2px dotted  #369bd1;
+  margin: auto;
+  padding-top: 10px;
+}
+.type-media {
+  padding-bottom: 10px;
+}
+
+.container {
+    padding: 10px 0;
+    text-align: center;
+}
+.container h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.container p{
+  font-size: 13px;
+  line-height: 20px;
+}
+.container img{
+  width: 80%;
+}
+.container:after {
+    display: inline-block;
+    width: 100%;
+}
+
+.mix {
+  height: auto;
+}
+
+.mix .col-inner {
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #369bd1;
+  border-top: .5rem solid currentColor;
+  border-radius: 2px 2px 40px 2px;
+  min-height: 320px;
+  background: #fff;
+  position: relative;
+  margin: 5px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.mix .col-inner p {
+  font-size: 1.2em;
+}
+
+.column-yes {
+    color: rgba(54, 155, 209, 1);
+}
+.column-no {
+    color: rgba(139, 212, 232, .8);
+}
+.column-no:before {
+  position: absolute;
+  background-color: rgba(139, 212, 232, .8);
+  color: #444444;
+  font-size: .95em;
+  content: "Pas dans Colonne";
+  margin-top: 10px;
+  right: 16px;
+  padding: 3px 10px 3px 5px;
+  border-radius: 0 0 0 4px;
+  z-index: 2;
+}
+
+/* Pages d'exemple
+---------------------------------------------------------------------------------------------------------------- */
+/* Exemple section
+---------------------------------------------------------------------- */
+iframe{
+  
+  width: 100%;
+}
+/*.list-exemple-kit{
+  
+padding: 10px 0;
+text-align: center;
+margin-right: 0 !important;
+}
+.exemple-kit{
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 0 0 15px 0;
+  box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+  margin: 5px 5px 5px 5px;
+  padding: 15px;
+  min-height: 140px !important;
+  background: #F8F8F8;
+}
+.exemple-kit h4{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.exemple-kit .fa{
+  color : #369bd1;
+  margin-bottom: 10px;
+  border: 1.5px dotted #369bd1;
+}*/
