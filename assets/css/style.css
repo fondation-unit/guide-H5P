@@ -3,21 +3,14 @@
    Table Of Content
    
    1. Global Style
-   2. Preloader
-   3. Home Section and Navigation Menu
-   4. About Me
-   5. Portfolio
-   6. Testimonial
-   7. Statistics
-   8. Services
-   9. Call to Action
-  10. Contact Us
-  11. Social Icons
-  12. Footer
-  13. Responsive
-  14. Scroll To Top
-  15. Useful Classes ( Such as : Margin, Padding, colors  "This classes will be helpful for you during designing/development time.")
-  16. UiPasta Credit
+   2. Section title, p, ul, li....
+   3. Home Section and Navigation Menu 
+   4. Introduction
+   5. Listing
+
+   Pages d'exemple
+   6. Exemple section
+
  
 */
 
@@ -152,6 +145,7 @@ li {
 .too-section h3{
   padding: 0 40px 0px 40px !important;
 }
+
 /* Home Section and Navigation Menu 
 ---------------------------------------------------------------------- */
 section{
@@ -347,6 +341,35 @@ section{
   z-index: 2;
 }
 
+/* Kit du développeur
+---------------------------------------------------------------------- */
+.mix .col-inner-kit {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 200px;
+  min-height: 200px;
+  background: #fff;
+  position: relative;
+  margin: 5px 0;
+  padding: 22px;
+  width: 100%;
+}
+.col-inner-kit:hover {
+  border-radius: 200px 200px 10px 200px;
+  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+  top: -5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.col-inner-kit p{
+  padding: 15px 0 15px 0!important;
+}
+.col-inner-kit .fa{
+  color: #a2dcec;
+}
+.col-inner-kit:hover .fa{
+  color: #666666;
+}
 /* Pages d'exemple
 ---------------------------------------------------------------------------------------------------------------- */
 /* Exemple section
