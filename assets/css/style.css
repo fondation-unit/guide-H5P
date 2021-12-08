@@ -9,8 +9,9 @@
    5. Listing
    6. Footer
 
-   Pages d'exemple
-   7. Exemple section
+  SRC
+   7. Page listing
+   8. Page kit-dev
 
  
 */
@@ -214,16 +215,6 @@ section{
   transition: all 0.3s ease-in-out;
   box-shadow: 8px 10px 15px 0px rgba(90, 91, 95, 0.3);
 }
-.introduction-section-listing img{
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 160px;
-  height: auto;
-  opacity: 0.4;
-  width: 15%;
-  margin: auto;
-}
 
 /* Listing
 ---------------------------------------------------------------------- */
@@ -384,7 +375,32 @@ section{
 
 /* src 
 ---------------------------------------------------------------------------------------------------------------- */
-/* page listing
+/* Introduction
+---------------------------------------------------------------------- */
+.introduction-section-listing img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100px;
+  height: auto;
+  opacity: 0.15;
+  width: 15%;
+  margin: auto;
+}
+.introduction-section-listing p{
+  background : rgba(255, 255, 255, 0.4);
+  padding: 5px;
+  width: auto;
+  border-radius: 20px;
+}
+.introduction-section-listing .button-ancre p{
+  background : none;
+  padding: 0;
+  margin: 0;
+  font-weight: 550;
+}
+
+/* Page listing
 ---------------------------------------------------------------------- */
 .introduction-section-listing h2,
 .donnees-section h2{
