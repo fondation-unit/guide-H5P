@@ -303,142 +303,6 @@ li {
   font-family: 'Caveat', sans-serif;
 }
 
-/* src 
----------------------------------------------------------------------------------------------------------------- */
-/* Listing
----------------------------------------------------------------------- */
-.controls {
-    padding: 10px 0;
-    text-align: center;
-}
-.control {
-    position: relative;
-    display: inline-block;
-    background: #a6a6a6;
-    cursor: pointer;
-    color: white;
-    margin: 5px 10px;
-    transition: background 150ms;
-    padding: 5px 20px;
-    border-radius: 20px;
-    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
-}
-.mixitup-control-active {
-    background: #444;
-}
-.control:hover {
-    background: #3f3f3f;
-}
-.type-media {
-  display: inline-flex;
-  background-image: linear-gradient(45deg, #a2dcec, 100%, #a2dcec);
-  background-position: 0px 100%;
-  background-position-x: 0px;
-  background-position-y: 100%;
-  background-repeat: repeat-x;
-  background-size: 100% 2px;
-  box-sizing: border-box;
-  padding-bottom: 10px;
-}
-.dynamique-media {
-  padding-top: 10px;
-}
-.container {
-    padding: 10px 0;
-    text-align: center;
-}
-.container h3{
-    font-size: 20px;
-    font-weight: 500;
-    margin: 20px 0px;
-}
-.container p{
-  font-size: 13px;
-  line-height: 20px;
-}
-.container img{
-  width: 80%;
-}
-.container:after {
-    display: inline-block;
-    width: 100%;
-}
-
-.mix {
-  height: auto;
-}
-.mix .col-inner {
-  display: inline-block;
-  vertical-align: top;
-  border: 1px solid #369bd1;
-  border-top: .5rem solid currentColor;
-  border-radius: 2px 2px 40px 2px;
-  min-height: 320px;
-  background: #fff;
-  position: relative;
-  margin: 5px 0;
-  padding: 10px;
-  width: 100%;
-}
-.col-inner:hover {
-  border-radius: 2px 2px 2px 40px;
-}
-.col-inner:hover,
-.col-inner-kit:hover{
-  top: -5px;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-}
-.mix .col-inner p {
-  font-size: 1.2em;
-}
-
-.column-yes {
-    color: rgba(54, 155, 209, 1);
-}
-.column-no {
-    color: rgba(139, 212, 232, .8);
-}
-.column-no:before {
-  position: absolute;
-  background-color: rgba(139, 212, 232, .8);
-  color: #444444;
-  font-size: .95em;
-  content: "Pas dans Colonne";
-  margin-top: 10px;
-  right: 16px;
-  padding: 3px 10px 3px 5px;
-  border-radius: 0 0 0 4px;
-  z-index: 2;
-}
-
-/* Kit du développeur
----------------------------------------------------------------------- */
-.mix .col-inner-kit {
-  display: inline-block;
-  vertical-align: top;
-  border-radius: 200px;
-  min-height: 200px;
-  background: #fff;
-  position: relative;
-  margin: 5px 0;
-  padding: 22px;
-  width: 100%;
-}
-.col-inner-kit:hover {
-  border-radius: 200px 200px 10px 200px;
-}
-.col-inner-kit p{
-  padding: 15px 0 15px 0!important;
-}
-.col-inner-kit .fa{
-  color: #a2dcec;
-}
-.col-inner-kit:hover .fa{
-  color: #666666;
-}
-
 /* Footer
 ---------------------------------------------------------------------- */
 .footer-section {
@@ -521,6 +385,139 @@ li {
 .col-inner-donnees p{
   text-align: left;
   padding-left: 15px;
+}
+
+/* Listing
+---------------------------------------------------------------------- */
+.controls {
+    padding: 10px 0;
+    text-align: center;
+}
+.control {
+    position: relative;
+    display: inline-block;
+    background: #a6a6a6;
+    cursor: pointer;
+    color: white;
+    margin: 5px 10px;
+    transition: background 150ms;
+    padding: 5px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+}
+.mixitup-control-active {
+    background: #444;
+}
+.control:hover {
+    background: #3f3f3f;
+}
+.type-media {
+  display: inline-flex;
+  background-image: linear-gradient(45deg, #a2dcec, 100%, #a2dcec);
+  background-position: 0px 100%;
+  background-position-x: 0px;
+  background-position-y: 100%;
+  background-repeat: repeat-x;
+  background-size: 100% 2px;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+.dynamique-media {
+  padding-top: 10px;
+}
+.container {
+    padding: 10px 0;
+    text-align: center;
+}
+.container h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.container p{
+  font-size: 13px;
+  line-height: 20px;
+}
+.container img{
+  width: 80%;
+}
+.container:after {
+    display: inline-block;
+    width: 100%;
+}
+.mix {
+  height: auto;
+}
+.mix .col-inner {
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #369bd1;
+  border-top: .5rem solid currentColor;
+  border-radius: 2px 2px 40px 2px;
+  min-height: 320px;
+  background: #fff;
+  position: relative;
+  margin: 5px 0;
+  padding: 10px;
+  width: 100%;
+}
+.col-inner:hover {
+  border-radius: 2px 2px 2px 40px;
+}
+.col-inner:hover,
+.col-inner-kit:hover{
+  top: -5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+}
+.mix .col-inner p {
+  font-size: 1.2em;
+}
+
+.column-yes {
+    color: rgba(54, 155, 209, 1);
+}
+.column-no {
+    color: rgba(139, 212, 232, .8);
+}
+.column-no:before {
+  position: absolute;
+  background-color: rgba(139, 212, 232, .8);
+  color: #444444;
+  font-size: .95em;
+  content: "Pas dans Colonne";
+  margin-top: 10px;
+  right: 16px;
+  padding: 3px 10px 3px 5px;
+  border-radius: 0 0 0 4px;
+  z-index: 2;
+}
+
+/* Kit du développeur
+---------------------------------------------------------------------- */
+.mix .col-inner-kit {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 200px;
+  min-height: 200px;
+  background: #fff;
+  position: relative;
+  margin: 5px 0;
+  padding: 22px;
+  width: 100%;
+}
+.col-inner-kit:hover {
+  border-radius: 200px 200px 10px 200px;
+}
+.col-inner-kit p{
+  padding: 15px 0 15px 0!important;
+}
+.col-inner-kit .fa{
+  color: #a2dcec;
+}
+.col-inner-kit:hover .fa{
+  color: #666666;
 }
 
 /* page kit-dev
@@ -622,9 +619,9 @@ iframe{
     display: block
 }
 
+/* responsive 
+---------------------------------------------------------------------------------------------------------------- */
 
-
-/* Responsive */
 @media screen and (max-width: 770px) {
      .choix-navigation,
      .lien-navigation {
