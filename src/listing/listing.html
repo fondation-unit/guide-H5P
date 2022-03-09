@@ -5,7 +5,7 @@
       <meta content="utf-8" http-equiv="encoding">
       <!-- Favicon -->
       <link rel="icon" type="image/jpg" href="../../assets/images/favicon/punchy-logo-icon.jpg" />
-      <link rel="icon" href="assets/images/favicon/punchy-logo-icon.ico" />
+      <link rel="icon" href="../../assets/images/favicon/punchy-logo-icon.ico" />
       <!-- All CSS Plugins -->
       <link rel="stylesheet" type="text/css" href="../../asserts/js/plugin.css">
       <!-- Main CSS Stylesheet -->
@@ -21,59 +21,56 @@
       <meta name="copyright" content="Fondation UNIT">
       <title>H5P, créons ensemble</title>
     </head>
-    
+
     <body>
       <!-- Menu Start-->
       <header id="home" class="home-section header-top-area">
         <div class="container">
           <div class="row">
-            <div class="col-sm-3">
+            <div class="col-12 col-sm-3">
               <div class="slogan">
-                  <a href="index.html">H5P, créons ensemble</a>
+                  <a href="../../index.html">- H5P, créons ensemble -</a>
               </div>
             </div>
-            <div class="col-sm-9">
+            <div class="col-12 col-sm-9">
               <div class="navigation-menu">
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a class="smoth-scroll" href="#introduction">Home</a></li>
-                  <li><a class="smoth-scroll" href="#listing">listing</a></li>
-                  <li><a class="smoth-scroll" href="#kit-dev">Kit du développeur</a></li>
+                <ul class="nav navbar-nav ">
+                  <li><a class="smoth-scroll" href="../../index.html">Home</a></li>
+                  <li><a class="smoth-scroll" href="#">listing</a></li>
+                  <li><a class="smoth-scroll" href="../../src/kitdev/kitdev.html">Kit du développeur</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </header>
-      
+
       <!-- Introduction Start -->
-      <section id="introduction" class="introduction-section">
+      <section id="banner" class="banner-section">
         <div class="container">
-          <div class="row margin-top-100">
-            <div class="col-md-12">
-              <div class="section-title">
-                <h2>Introduction</h2>
-                <p>Ce guide a pour but de présenter, sous deux angles, les possibilités que vous offre H5P. 
-                  Tout d’abord, vous trouverez un listing de l’ensemble des activités H5P. 
-                  Vous pouvez les trier en fonction de vos besoins (texte, audio, quiz...). 
-                  Une autre partie vous propose plusieurs cas concrets d’utilisation d’H5P. 
-                  Ces cas sont des démonstrations extraites de modules médiatisés par UNIT.</p>
-                  <div class="button-ancre">
-                    <a class="control smoth-scroll col-md-2 col-sm-2 col-xs-3" href="#listing">Listing</a>
-                    <a class="control smoth-scroll col-md-2 col-sm-2 col-xs-3" href="#kit-dev">Kit du développeur</a>
-                  </div>
+          <div class="row margin-top-70">
+            <div class="col-sm-6">
+              <div id="banner-title">
+                <h2>- Listing -</h2>
+                <p>Voici la liste de toutes les activités présentes sur H5P. Triez-les en fonction de vos besoins</p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div id="listing-img">
               </div>
             </div>
           </div>
         </div>
       </section>
-      
-      
+
+
       <!-- Listing Start -->
       <section id="listing" class="listing-section">
         <div class="container-fluid">
           <div class="section-title">
-            <h2>Listing</h2>
-            <p>Voici la liste de toutes les activités présentes sur H5P. Triez-les en fonction de vos besoins.</p>
+            <h2>- Listing -</h2>
+            <p>Vous pouvez, ici, trier les activités en fonction de leurs types (audio, texte...) puis de leur genre (dynamique ou statique).<br>
+            Chaque activité vous sera présentée avec un exemple et des éléments informatifs.</p>
           </div>
           <div class="controls">
             <div class="type-media">
@@ -92,8 +89,8 @@
           <div class="container">
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte statique column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/accordion.html" class="listing-popup" title="Project Title">
-                    <img src="assets/images/listing/accordion.png" alt="">
+                  <a href="../../src/listing/accordion.html" class="listing-popup" title="Project Title">
+                    <img src="../../assets/images/listing/accordion.png" alt="">
                       <h3>Accordion</h3>
                       <p>Créer des éléments extensibles empilés verticalement</p>
                   </a>
@@ -101,8 +98,8 @@
               </div>
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image dynamique column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/agamotto.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/agamotto.png" alt="">
+                  <a href="../../src/listing/agamotto.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/agamotto.png" alt="">
                       <h3>Agamotto</h3>
                       <p>Créer une séquence d'images qui change progressivement</p>
                   </a>
@@ -110,8 +107,8 @@
               </div>
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz dynamique column-no">
                 <div class="col-inner">
-                  <a href="images/listing/basic-arithmetic.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/basic-arithmetic.png" alt="">
+                  <a href="../../images/listing/basic-arithmetic.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/basic-arithmetic.png" alt="">
                     <h3>Arithmetic Quiz</h3>
                     <p>Créer des quiz basés sur le temps</p>
                   </a>
@@ -119,8 +116,8 @@
               </div>-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio dynamique column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/audio-recorder.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/audio-recorder.png" alt="audio-recorder">
+                  <a href="../../src/listing/audio-recorder.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/audio-recorder.png" alt="audio-recorder">
                     <h3>Audio recorder</h3>
                     <p>Créer un enregistrement audio</p>
                   </a>
@@ -128,8 +125,8 @@
               </div>
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image statique column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/chart.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/chart.png" alt="chart">
+                  <a href="../../src/listing/chart.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/chart.png" alt="chart">
                     <h3>Chart</h3>
                     <p>Générer simplement des graphiques</p>
                   </a>
@@ -137,8 +134,8 @@
               </div>
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image statique column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/collage.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/collage.png" alt="collage">
+                  <a href="../../src/listing/collage.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/collage.png" alt="collage">
                     <h3>Collage</h3>
                     <p>Composition de plusieurs images</p>
                   </a>
@@ -146,8 +143,8 @@
               </div>
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image quiz video texte statique column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/column.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/column.png" alt="column">
+                  <a href="../../src/listing/column.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/column.png" alt="column">
                     <h3>Column</h3>
                     <p>Disposition en colonne des éléments H5P</p>
                   </a>
@@ -155,8 +152,8 @@
               </div>
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte dynamique column-no">
                 <div class="col-inner">
-                  <a href="images/listing/crosswords.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/crosswords.png" alt="">
+                  <a href="../../images/listing/crosswords.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/crosswords.png" alt="">
                     <h3>Crossword</h3>
                     <p>Créer une grille de mots croisés</p>
                   </a>
@@ -164,8 +161,8 @@
               </div>-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image texte dynamique quiz column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/dialog_cards.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/dialog_cards.png" alt="dialog cards">
+                  <a href="../../src/listing/dialog_cards.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/dialog_cards.png" alt="dialog cards">
                     <h3>Dialog Cards</h3>
                     <p>Créer des cartes à retourner avec un texte et une image</p>
                   </a>
@@ -173,8 +170,8 @@
               </div>
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio dynamique column-no">
                 <div class="col-inner">
-                  <a href="images/listing/dictation.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/dictation.png" alt="">
+                  <a href="../../images/listing/dictation.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/dictation.png" alt="">
                     <h3>Dictation</h3>
                     <p>Créer une dictée avec un retour instantané</p>
                   </a>
@@ -182,8 +179,8 @@
               </div>-->
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio dynamique column-yes">
                 <div class="col-inner">
-                  <a href="images/listing/documentation-tool.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/documentation-tool.png" alt="">
+                  <a href="../../images/listing/documentation-tool.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/documentation-tool.png" alt="">
                     <h3>Documentation Tool</h3>
                     <p>Créer un assistant de formulaire avec exportation de texte</p>
                   </a>
@@ -191,8 +188,8 @@
               </div>-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image texte dynamique quiz column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/drag-and-drop.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/drag-and-drop.png" alt="drag-and-drop">
+                  <a href="../../src/listing/drag-and-drop.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/drag-and-drop.png" alt="drag-and-drop">
                     <h3>Drag and Drop</h3>
                     <p>Glisser-déposer avec des images, textes ou formules mathématiques</p>
                   </a>
@@ -200,8 +197,8 @@
               </div>
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte dynamique quiz column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/drag-the-words.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/drag-the-words.png" alt="drag-the-words">
+                  <a href="../../src/listing/drag-the-words.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/drag-the-words.png" alt="drag-the-words">
                     <h3>Drag the Words</h3>
                     <p>Glisser-déposer uniquement avec du texte</p>
                   </a>
@@ -209,8 +206,8 @@
               </div>
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte dynamique quiz column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/essay.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/essay.png" alt="essay">
+                  <a href="../../src/listing/essay.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/essay.png" alt="essay">
                     <h3>Essay</h3>
                     <p>Créer un resumé avec un retour instantané</p>
                   </a>
@@ -218,8 +215,8 @@
               </div>
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz dynamique text column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/fill-in-the-blanks.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/fill-in-the-blanks.png" alt="fill in the blanks">
+                  <a href="../../src/listing/fill-in-the-blanks.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/fill-in-the-blanks.png" alt="fill in the blanks">
                     <h3>Fill in the Blanks</h3>
                     <p>Texte à trous</p>
                   </a>
@@ -227,8 +224,8 @@
               </div>
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image statique column-no">
                 <div class="col-inner">
-                  <a href="images/listing/find-multiple-hotspots.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/find-multiple-hotspots.png" alt="">
+                  <a href="../../images/listing/find-multiple-hotspots.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/find-multiple-hotspots.png" alt="">
                     <h3>Find Multiple Hotspots</h3>
                     <p>Plusieurs points à trouver dans une image</p>
                   </a>
@@ -236,8 +233,8 @@
               </div>-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image dynamique quiz column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/image_hotspot-question.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/image_hotspot-question.png" alt="image hotspot question">
+                  <a href="../../src/listing/image_hotspot-question.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/image_hotspot-question.png" alt="image hotspot question">
                     <h3>Find the Hotspot</h3>
                     <p>Un point à trouver dans une image</p>
                   </a>
@@ -245,8 +242,8 @@
               </div>
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte dynamique quiz column-no">
                 <div class="col-inner">
-                  <a href="images/listing/word-search.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/word-search.png" alt="">
+                  <a href="../../images/listing/word-search.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/word-search.png" alt="">
                     <h3>Find the words</h3>
                     <p>Jeu de recherche de mots sur une grille</p>
                   </a>
@@ -254,8 +251,8 @@
               </div>-->
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image dynamique column-no">
                 <div class="col-inner">
-                  <a href="images/listing/flashcards.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/flashcards.png" alt="">
+                  <a href="../../images/listing/flashcards.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/flashcards.png" alt="">
                     <h3>Flashcards</h3>
                     <p>Carte mémoire avec du texte à remplir</p>
                   </a>
@@ -263,8 +260,8 @@
               </div>-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image video dynamique column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/guess-the-answer.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/guess-the-answer.png" alt="guess the answer">
+                  <a href="../../src/listing/guess-the-answer.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/guess-the-answer.png" alt="guess the answer">
                       <h3>Guess the Answer</h3>
                       <p>Carte mémoire avec une image</p>
                   </a>
@@ -272,8 +269,8 @@
               </div>
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image statique column-no">
                 <div class="col-inner">
-                  <a href="images/listing/guess-the-answer.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/guess-the-answer.png" alt="">
+                  <a href="../../images/listing/guess-the-answer.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/guess-the-answer.png" alt="">
                     <h3>Image Choice</h3>
                     <p>Selectionner plusieurs images</p>
                   </a>
@@ -281,8 +278,8 @@
               </div>-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image statique column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/hotspots.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/hotspots.png" alt="hotspots">
+                  <a href="../../src/listing/hotspots.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/hotspots.png" alt="hotspots">
                     <h3>Image Hotspots</h3>
                     <p>Créer une image avec plusieurs points d'information</p>
                   </a>
@@ -290,8 +287,8 @@
               </div>
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image statique column-no">
                 <div class="col-inner">
-                  <a href="images/listing/before-after-image.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/before-after-image.png" alt="">
+                  <a href="../../images/listing/before-after-image.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/before-after-image.png" alt="">
                     <h3>Image Juxtaposition</h3>
                     <p>Comparer deux images en les juxtaposant</p>
                   </a>
@@ -299,8 +296,8 @@
               </div>-->
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image dynamique column-no">
                 <div class="col-inner">
-                  <a href="images/listing/image-pairing.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/image-pairing.png" alt="">
+                  <a href="../../images/listing/image-pairing.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/image-pairing.png" alt="">
                       <h3>Image pairing</h3>
                       <p>Jeu d'association d'images par glisser-déposer</p>
                   </a>
@@ -308,8 +305,8 @@
               </div>-->
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image dynamique column-no">
                 <div class="col-inner">
-                  <a href="images/listing/image-sequnce.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/image-sequnce.png" alt="">
+                  <a href="../../images/listing/image-sequnce.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/image-sequnce.png" alt="">
                     <h3>Image Sequencing</h3>
                     <p>Placer les images dans le bon ordre</p>
                   </a>
@@ -317,8 +314,8 @@
               </div>-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image statique column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/image-slider.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/Image-Slider.png" alt="image slider">
+                  <a href="../../src/listing/image-slider.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/Image-Slider.png" alt="image slider">
                     <h3>Image Slider</h3>
                     <p>Slide d'images</p>
                   </a>
@@ -326,8 +323,8 @@
               </div>
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte image audio video statique column-yes">
                 <div class="col-inner">
-                  <a href="images/listing/interactive-book.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/interactive-book.png" alt="">
+                  <a href="../../images/listing/interactive-book.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/interactive-book.png" alt="">
                       <h3>Interactive Book</h3>
                       <p>Créer un livre avec du texte, quiz, media</p>
                   </a>
@@ -335,8 +332,8 @@
               </div>-->
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte dynamique column-yes">
                 <div class="col-inner">
-                  <a href="images/listing/mark-the-words.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/mark-the-words.png" alt="">
+                  <a href="../../images/listing/mark-the-words.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/mark-the-words.png" alt="">
                     <h3>Mark the Words</h3>
                     <p>Trouver les mots en les surlignant</p>
                   </a>
@@ -344,8 +341,8 @@
               </div>-->
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image dynamique column-no">
                 <div class="col-inner">
-                  <a href="images/listing/memory-game.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/memory-game.png" alt="">
+                  <a href="../../images/listing/memory-game.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/memory-game.png" alt="">
                     <h3>Memory game</h3>
                     <p>Créer le jeu d'association d'images classique</p>
                   </a>
@@ -353,8 +350,8 @@
               </div>-->
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz dynamique image audio column-yes">
                 <div class="col-inner">
-                  <a href="images/listing/multichoice.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/multichoice.png" alt="">
+                  <a href="../../images/listing/multichoice.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/multichoice.png" alt="">
                     <h3>Multiple Choice</h3>
                     <p>Question à choix multiples</p>
                   </a>
@@ -362,8 +359,8 @@
               </div>-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz dynamique texte image audio column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/question-set.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/question-set.png" alt="question set">
+                  <a href="../../src/listing/question-set.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/question-set.png" alt="question set">
                     <h3>Quiz (Question Set)</h3>
                     <p>Ensemble de questions (quiz)</p>
                   </a>
@@ -371,8 +368,8 @@
               </div>
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz dynamique texte column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/single-choice-set.html" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/single-choice-set.png" alt="single choice set">
+                  <a href="../../src/listing/single-choice-set.html" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/single-choice-set.png" alt="single choice set">
                     <h3>Single Choice Set</h3>
                     <p>Créer des questions avec une seule réponse correcte (QCU)</p>
                   </a>
@@ -380,8 +377,8 @@
               </div>
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte dynamique column-no">
                 <div class="col-inner">
-                  <a href="images/listing/sort-paragraphs.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/sort-paragraphs.png" alt="">
+                  <a href="../../images/listing/sort-paragraphs.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/sort-paragraphs.png" alt="">
                     <h3>Sort the Paragraphs</h3>
                     <p>Créer un ensemble de paragraphes à trier</p>
                   </a>
@@ -389,8 +386,8 @@
               </div>-->
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio dynamique column-no">
                 <div class="col-inner">
-                  <a href="images/listing/speak-the-words.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/speak-the-words.png" alt="">
+                  <a href="../../images/listing/speak-the-words.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/speak-the-words.png" alt="">
                     <h3>Speak the Words</h3>
                     <p>Répondre à une question en utilisant sa voix</p>
                   </a>
@@ -398,8 +395,8 @@
               </div>-->
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio dynamique column-no">
                 <div class="col-inner">
-                  <a href="images/listing/speak-the-words-set.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/speak-the-words-set.png" alt="">
+                  <a href="../../images/listing/speak-the-words-set.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/speak-the-words-set.png" alt="">
                     <h3>Speak the Words Set</h3>
                     <p>Répondre à une série de questions en utilisant sa voix</p>
                   </a>
@@ -407,8 +404,8 @@
               </div>-->
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image dynamique column-yes">
                 <div class="col-inner">
-                  <a href="images/listing/timeline.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/timeline.png" alt="">
+                  <a href="../../images/listing/timeline.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/timeline.png" alt="">
                     <h3>Timeline</h3>
                     <p>Créer une frise chronologique</p>
                   </a>
@@ -416,8 +413,8 @@
               </div>-->
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio video dynamique column-yes">
                 <div class="col-inner">
-                  <a href="src/listing/true-false.html" title="Question vrai/faux lien">
-                    <img src="assets/images/listing/true-false.png" alt="vrai-faux">
+                  <a href="../../src/listing/true-false.html" title="Question vrai/faux lien">
+                    <img src="../../assets/images/listing/true-false.png" alt="vrai-faux">
                     <h3>True/False Question</h3>
                     <p>Question vrai/faux</p>
                   </a>
@@ -425,8 +422,8 @@
               </div>
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte video dynamique column-yes">
                 <div class="col-inner">
-                  <a href="images/listing/course_presentation.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/course_presentation.png" alt="">
+                  <a href="../../images/listing/course_presentation.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/course_presentation.png" alt="">
                     <h3>Course Presentation</h3>
                     <p>Ensemble de slides interactives</p>
                   </a>
@@ -434,8 +431,8 @@
               </div>-->
               <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix video dynamique column-yes">
                 <div class="col-inner">
-                  <a href="images/listing/interactive_video.png" class="portfolio-popup" title="Project Title">
-                    <img src="assets/images/listing/interactive_video.png" alt="">
+                  <a href="../../images/listing/interactive_video.png" class="portfolio-popup" title="Project Title">
+                    <img src="../../assets/images/listing/interactive_video.png" alt="">
                     <h3>Interactive Video</h3>
                     <p>Vidéo avec interactions (questions, texte) intégrées</p>
                   </a>
@@ -445,97 +442,30 @@
           </div>
         </section>
 
-        <!-- Kit du développeur -->
-        <section id="kit-dev" class="kit-dev-section">
-          <div class="container-fluid">
-            <div class="section-title">
-              <h2>Kit du développeur</h2>
-              <p>Dans cette partie, nous vous proposons quelques exemples précis d’utilisation d’H5P. 
-                Ces cas requièrent l’utilisation de plusieurs activités d’H5P.<br>
-                <b style="color:red;">Cette section en cours de production.</b> </p>
-            </div>
-            <div class="container">
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix">
-                <div class="col-inner-kit">
-                  <a href="src/kitdev/question-sons.html">
-                    <i class="fa fa-plus fa-3x"></i>
-                    <h4>Questions avec du son</h4>
-                    <p>Comment ajouter un son dans un quiz</p>
-                  </a>
-                </div>
-              </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix">
-                <div class="col-inner-kit">
-                  <a href="src/kitdev/question-math.html">
-                    <i class="fa fa-plus fa-3x"></i>
-                    <h4>Questions avec formule de math</h4>
-                    <p>Créer un quiz avec des formules Latex</p>
-                  </a>
-                </div>
-              </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix">
-                <div class="col-inner-kit">
-                  <a href="src/kitdev/legendeImg.html">
-                    <i class="fa fa-plus fa-3x"></i>
-                    <h4>Mettre une légende à une image</h4>
-                    <p>Ajouter du texte sous l'image</p>
-                  </a>
-                </div>
-              </div>
-              <!--<div class="col-sm-6 col-md-4 col-lg-3 mix">
-                <div class="col-inner-kit">
-                  <a href="src/exemples/question-sons.html">
-                    <i class="fa fa-plus fa-3x"></i>
-                    <h4>Créer un block important</h4>
-                    <p>Lorem ipsum dolor sit amet. Ut harum Quis ex repe</p>
-                  </a>
-                </div>
-              </div>-->
-              <!--<div class="col-sm-6 col-md-4 col-lg-3 mix">
-                <div class="col-inner-kit">
-                  <a href="src/exemples/question-sons.html">
-                    <i class="fa fa-plus fa-3x"></i>
-                    <h4>Créer une dictée dans un conteneur</h4>
-                    <p>Lorem ipsum dolor sit amet. Ut harum Quis ex repe</p>
-                  </a>
-                </div>
-              </div>-->
-              <div class="col-sm-6 col-md-4 col-lg-3 mix">
-                <div class="col-inner-kit">
-                  <a href="src/kitdev/TD.html">
-                    <i class="fa fa-plus fa-3x"></i>
-                    <h4>TD avec correction type</h4>
-                    <p>Proposer un exercice sans redaction</p>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        
+
         <!-- Footer Start -->
         <footer class="footer-section">
           <div class="container-fluid">
             <div class="row justify-content-md-center">
               <div class="col col-lg-3">
                 <a href="https://unit.eu/" title="Site Unit">
-                  <img src="assets/images/logo/unit-blanc.svg" alt="L'université Numérique">
+                  <img src="../../assets/images/logo/unit-blanc.svg" alt="L'université Numérique">
                 </a>
               </div>
               <div class="col col-lg-3">
                 <a href="https://luniversitenumerique.fr/" title="Site de l'université Numérique">
-                  <img src="assets/images/logo/UN-blanc.svg" alt="L'université Numérique">
+                  <img src="../../assets/images/logo/UN-blanc.svg" alt="L'université Numérique">
                 </a>
               </div>
               <div class="col col-lg-12">
-                <p>Version du site : 1.0</p>
+                <p>Version du site : 1.1</p>
               </div>
             </div>
           </div>
         </footer>
         <!-- Footer End -->
-              
-        <script type="text/javascript" src="assets/js/jquery.min.js"></script>    
+
+        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
         <script src="assets/js/mixitup.min.js"></script>
         <script type="text/javascript" src="assets/js/plugin.js"></script>
         <script type="text/javascript" src="assets/js/scripts.js"></script>
