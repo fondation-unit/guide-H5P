@@ -240,7 +240,6 @@ li {
   transition: all 0.6s ease-in-out;
 }
 .col-inner-choix:hover{
-  top: -5px;
   box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
   border-radius: 2px 2px 2px 40px;
 }
@@ -274,33 +273,37 @@ li {
   background: #f4f4f4;
   position: relative;
   margin: 5px 0;
-  padding: 10px;
   width: 100%;
   box-shadow: 8px 10px 15px 0px rgba(90, 91, 95, 0.3);
 }
-
-.col-inner-choix:hover,
-.col-inner-choix:hover img{
-  -webkit-transition: all 0.6s ease-in-out;
-  transition: all 0.6s ease-in-out;
+.col-inner-lien img{
+  height: 200px;
+  width: 100% !important;
 }
-.col-inner-choix:hover{
-  top: -5px;
-  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-  border-radius: 2px 2px 2px 40px;
-}
-.col-inner-choix:hover img{
-  width: 85%;
-}
-.col-inner-choix img,
-.col-inner-choix{
-  -webkit-transition: all 0.6s ease-in-out;
-  transition: all 0.6s ease-in-out;
+.col-inner-lien:hover{
+  top:-12px;
 }
 
-.col-inner-choix h3{
-  font-size: 3em !important;
-  font-family: 'Caveat', sans-serif;
+/* Footer
+---------------------------------------------------------------------- */
+.footer-section {
+    background: #666666;
+    padding: 50px 0px;
+    color: #f8f8f8;
+}
+.footer-section p {
+    font-size: 14px;
+}
+.footer-section a {
+    color: #ffffff;
+}
+.footer-section .justify-content-md-center {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
 }
 
 /* src 
@@ -412,83 +415,6 @@ li {
   border-radius: 0 0 0 4px;
   z-index: 2;
 }
-
-/* Kit du développeur
----------------------------------------------------------------------- */
-.mix .col-inner-kit {
-  display: inline-block;
-  vertical-align: top;
-  border-radius: 200px;
-  min-height: 200px;
-  background: #fff;
-  position: relative;
-  margin: 5px 0;
-  padding: 22px;
-  width: 100%;
-}
-.col-inner-kit:hover {
-  border-radius: 200px 200px 10px 200px;
-}
-.col-inner-kit p{
-  padding: 15px 0 15px 0!important;
-}
-.col-inner-kit .fa{
-  color: #a2dcec;
-}
-.col-inner-kit:hover .fa{
-  color: #666666;
-}
-
-/* Footer
----------------------------------------------------------------------- */
-.footer-section {
-    background: #666666;
-    padding: 50px 0px;
-    color: #f8f8f8;
-}
-.footer-section p {
-    font-size: 14px;
-}
-.footer-section a {
-    color: #ffffff;
-}
-.footer-section .justify-content-md-center {
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center !important;
-  -ms-flex-pack: center !important;
-  justify-content: center !important;
-}
-
-
-/* src 
----------------------------------------------------------------------------------------------------------------- */
-/* Introduction
----------------------------------------------------------------------- */
-.introduction-section-listing img{
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 100px;
-  height: auto;
-  opacity: 0.15;
-  width: 15%;
-  margin: auto;
-}
-.introduction-section-listing p{
-  background : rgba(255, 255, 255, 0.4);
-  padding: 5px;
-  width: auto;
-  border-radius: 20px;
-}
-.introduction-section-listing .button-ancre p{
-  background : none;
-  padding: 0;
-  margin: 0;
-  font-weight: 550;
-}
-
 /* Page listing
 ---------------------------------------------------------------------- */
 .introduction-section-listing h2,
@@ -523,6 +449,31 @@ li {
   padding-left: 15px;
 }
 
+/* Kit du développeur
+---------------------------------------------------------------------- */
+.mix .col-inner-kit {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 200px;
+  min-height: 200px;
+  background: #fff;
+  position: relative;
+  margin: 5px 0;
+  padding: 22px;
+  width: 100%;
+}
+.col-inner-kit:hover {
+  border-radius: 200px 200px 10px 200px;
+}
+.col-inner-kit p{
+  padding: 15px 0 15px 0!important;
+}
+.col-inner-kit .fa{
+  color: #a2dcec;
+}
+.col-inner-kit:hover .fa{
+  color: #666666;
+}
 /* page kit-dev
 ---------------------------------------------------------------------- */
 iframe{
@@ -623,8 +574,35 @@ iframe{
 }
 
 
+/* Introduction
+---------------------------------------------------------------------- */
+.introduction-section-listing img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100px;
+  height: auto;
+  opacity: 0.15;
+  width: 15%;
+  margin: auto;
+}
+.introduction-section-listing p{
+  background : rgba(255, 255, 255, 0.4);
+  padding: 5px;
+  width: auto;
+  border-radius: 20px;
+}
+.introduction-section-listing .button-ancre p{
+  background : none;
+  padding: 0;
+  margin: 0;
+  font-weight: 550;
+}
 
-/* Responsive */
+
+
+/* responsive
+---------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width: 770px) {
      .choix-navigation,
      .lien-navigation {
