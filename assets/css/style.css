@@ -331,6 +331,34 @@ li {
 ---------------------------------------------------------------------------------------------------------------- */
 /* Introduction
 ---------------------------------------------------------------------- */
+
+
+
+/* Pages listing
+---------------------------------------------------------------------- */
+
+.mix-donnees {
+  height: auto;
+}
+.mix-donnees .col-inner-donnees{
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px 10px 10px 10px;
+  min-height: 220px;
+  background: #fff;
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+}
+.col-inner-donnees ul,
+.col-inner-donnees p{
+  text-align: left;
+  padding-left: 15px;
+}
+
+/* Listing
+---------------------------------------------------------------------- */
 #listing-img{
   background-image: url(../../assets/images/illustration/listing.png);
   background-position-x: 50%;
@@ -357,37 +385,13 @@ li {
   width: auto;
   border-radius: 20px;
 }
-.introduction-section-listing .button-ancre p{
+.introduction-section-listing{
   background : none;
   padding: 0;
   margin: 0;
   font-weight: 550;
 }
 
-/* Page listing
----------------------------------------------------------------------- */
-.mix-donnees {
-  height: auto;
-}
-.mix-donnees .col-inner-donnees{
-  display: inline-block;
-  vertical-align: top;
-  border-radius: 10px 10px 10px 10px;
-  min-height: 220px;
-  background: #fff;
-  position: relative;
-  padding: 10px;
-  width: 100%;
-  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-}
-.col-inner-donnees ul,
-.col-inner-donnees p{
-  text-align: left;
-  padding-left: 15px;
-}
-
-/* Listing
----------------------------------------------------------------------- */
 .controls {
     padding: 10px 0;
     text-align: center;
@@ -495,6 +499,16 @@ li {
 
 /* Kit du développeur
 ---------------------------------------------------------------------- */
+#kitdev-img{
+  background-image: url(../../assets/images/illustration/kitdev.png);
+  background-position-x: 50%;
+  background-position-y: 30%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 0;
+  box-sizing: border-box;
+  min-height: 300px;
+}
 .mix .col-inner-kit {
   display: inline-block;
   vertical-align: top;
@@ -521,6 +535,16 @@ li {
 
 /* page kit-dev
 ---------------------------------------------------------------------- */
+#kitdevdetail-img{
+  background-image: url(../../assets/images/illustration/kitdevdetail.png);
+  background-position-x: 50%;
+  background-position-y: 30%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 0;
+  box-sizing: border-box;
+  min-height: 300px;
+}
 iframe{
   width: 100%;
 }
