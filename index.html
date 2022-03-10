@@ -25,20 +25,30 @@
     <body>
       <!-- Menu Start-->
       <header id="home" class="home-section header-top-area">
-        <div class="container">
+        <div class="container container-nav">
           <div class="row">
-            <div class="col-12 col-sm-3">
+            <div class="col-sm-3 nav">
               <div class="slogan">
                   <a href="index.html">- H5P, créons ensemble -</a>
               </div>
             </div>
-            <div class="col-12 col-sm-9">
+            <div class="col-sm-8 nav">
               <div class="navigation-menu">
-                <ul class="nav navbar-nav ">
-                  <li><a class="smoth-scroll" href="#introduction">Home</a></li>
-                  <li><a class="smoth-scroll" href="src/listing/listing.html">listing</a></li>
-                  <li><a class="smoth-scroll" href="src/kitdev/kitdev.html">Kit du développeur</a></li>
-                </ul>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav ">
+                    <li><a class="smoth-scroll" href="#introduction">Home</a></li>
+                    <li><a class="smoth-scroll" href="src/listing/listing.html">listing</a></li>
+                    <li><a class="smoth-scroll" href="src/kitdev/kitdev.html">Kit du développeur</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -110,8 +120,8 @@
             <div class="col-md-12">
               <div class="section-title">
                 <h2>- En savoir plus -</h2>
-                <div class="lien-navigation">
-                  <div class=" col-sm-6 mix-lien">
+                <div class="lien-navigation container">
+                  <div class="col-sm-6 col-md-4  mix-lien">
                     <div class="col-inner-lien">
                       <a href="https://h5p.org/" class="portfolio-popup" title="Project Title">
                         <img src="assets/images/illustration/lien/H5P-logo.svg" alt="">
@@ -119,7 +129,7 @@
                       </a>
                     </div>
                   </div>
-                  <div class=" col-sm-6 mix-lien">
+                  <div class="col-sm-6 col-md-4  mix-lien">
                     <div class="col-inner-lien">
                       <a href="https://unit.eu/actualites/webinaire-h5p-consultez-le-replay" class="portfolio-popup" title="Project Title">
                         <img src="assets/images/illustration/lien/webinaire.png" alt="">
@@ -127,11 +137,19 @@
                       </a>
                     </div>
                   </div>
-                  <div class=" col-sm-6 mix-lien">
+                  <div class="col-sm-6 col-md-4 mix-lien">
                     <div class="col-inner-lien">
                       <a href="https://moodle.luniversitenumerique.fr/course/index.php?categoryid=45" class="portfolio-popup" title="Project Title">
                         <img src="assets/images/illustration/lien/logo-PUNCHY.png" alt="">
                         <h3>Projet de production de ressources numériques à large potentiel de réutilisation sous H5P</h3>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4  mix-lien">
+                    <div class="col-inner-lien">
+                      <a href="https://lumi.education/fr/" class="portfolio-popup" title="Project Title">
+                        <img src="assets/images/illustration/lien/logo-lumi.svg" alt="">
+                        <h3>Application de bureau qui vous permet de manipuler H5P</h3>
                       </a>
                     </div>
                   </div>

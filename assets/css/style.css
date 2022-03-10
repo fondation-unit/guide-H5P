@@ -262,8 +262,6 @@ li {
 ---------------------------------------------------------------------- */
 .lien-navigation {
   height: auto;
-  justify-content: center !important;
-  display: flex;
 }
 
 .col-inner-lien {
@@ -284,10 +282,7 @@ li {
 .col-inner-lien:hover{
   top: -13px;
 }
-.col-inner-choix h3{
-  font-size: 3em !important;
-  font-family: 'Caveat', sans-serif;
-}
+
 
 /* Footer
 ---------------------------------------------------------------------- */
@@ -321,7 +316,6 @@ li {
 
 /* Pages listing
 ---------------------------------------------------------------------- */
-
 .mix-donnees {
   height: auto;
 }
@@ -376,7 +370,6 @@ li {
   margin: 0;
   font-weight: 550;
 }
-
 .controls {
     padding: 10px 0;
     text-align: center;
@@ -635,5 +628,45 @@ iframe{
      .lien-navigation {
           display: inline-block !important;
 	  }
+    .nav,
+    .container-nav{
+        padding: 0px ;
+        padding-right:  0px !important;
+        width: 100%;
+    }
+    .navbar-toggle .icon-bar {
+        background: #f8f8f8;
+    }
+    .navigation-background .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    .navbar-toggle {
+        margin-right: 0px;
+        margin-top: -30px !important;
+    }
+    .navbar {
+        min-height: 0px;
+    }
+    .navigation-menu .navbar-nav li a {
+        padding: 11px 15px;
+    }
+    .navigation-menu .navbar-nav li a:hover {
+        color: #24b662;
+    }
+  .navigation-menu .navbar-nav li a:hover {
+        color: #24b662;
+    }
+    .navigation-menu .navbar-nav li a {
+        padding: 11px 15px;
+    }
+     .navbar-collapse {
+        max-height: 420px;
+    }
+    .navbar-collapse {
+        background: rgba(204 , 204 , 204, 0.6);
+        border: none !important;
+        box-shadow: none;
+    }
+
 
 }
