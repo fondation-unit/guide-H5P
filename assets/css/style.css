@@ -119,13 +119,13 @@ li {
 {
   background: #E0E0E0;
 }
-.lien-section{
+.lien-section,
+.exemple-section{
   background: #fff;
 }
 .kit-dev-section,
 .choix-section,
 .listing-section,
-.exemple-section,
 .video-section{
   background: #F4F4F4;
 }
@@ -313,8 +313,7 @@ li {
 
 /* src
 ---------------------------------------------------------------------------------------------------------------- */
-/* Introduction
----------------------------------------------------------------------- */
+
 
 
 
@@ -527,102 +526,18 @@ li {
   box-sizing: border-box;
   min-height: 300px;
 }
+.margin-top-bottom-50{
+  margin: 50px 0 50px 0;
+}
+.video-title h2,
+.exemple-title h2{
+  font-size: 3em;
+  font-family: 'Caveat', sans-serif;
+}
 iframe{
   width: 100%;
 }
-.timeline {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: relative
-}
 
-.timeline:before {
-    content: '';
-    position: absolute;
-    top: 5px;
-    bottom: 5px;
-    width: 5px;
-    background: #2d353c;
-    left: 20%;
-    margin-left: -2.5px
-}
-
-.timeline>li {
-    position: relative;
-    min-height: 50px;
-    padding: 20px 0
-}
-
-.timeline .timeline-time {
-    position: absolute;
-    left: 0;
-    width: 18%;
-    text-align: right;
-    top: 30px
-}
-
-.timeline .timeline-time .matiere,
-.timeline .timeline-time .type,
-.timeline-header{
-    display: block;
-    font-weight: 600;
-}
-
-.timeline .timeline-time .matiere {
-    line-height: 16px;
-    font-size: 12px
-}
-.timeline .timeline-time .type,
-.timeline-header{
-    line-height: 24px;
-    font-size: 20px;
-    color: #242a30
-}
-
-.timeline .timeline-icon {
-    left: 15%;
-    position: absolute;
-    width: 10%;
-    text-align: center;
-    top: 40px
-}
-
-.timeline .timeline-icon p {
-    text-decoration: none;
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    border-radius: 20px;
-    background: #f2f2f2;
-    line-height: 10px;
-    color: #fff;
-    font-size: 14px;
-    border: 5px solid #369bd1;;
-    transition: border-color .2s linear
-}
-
-.timeline .timeline-body {
-    margin-left: 23%;
-    margin-right: 17%;
-    background: #fff;
-    position: relative;
-    padding: 20px 25px;
-    border-radius: 6px
-}
-
-.timeline-header h3{
-    padding-bottom: 10px;
-    border-bottom: 0.5px solid #666666;
-    line-height: 30px;
-    color: #369bd1;
-    margin-top: 0;
-}
-.timeline img,
-.timeline iframe {
-    max-width: 100%;
-    display: block
-}
 
 /* responsive
 ---------------------------------------------------------------------------------------------------------------- */
