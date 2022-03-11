@@ -213,7 +213,9 @@ li {
   font-family: 'Caveat', sans-serif;
   font-size: 4em;
 }
-
+#banner-title p{
+  padding-top: 15px;
+}
 /* Choix
 ---------------------------------------------------------------------- */
 .choix-navigation {
