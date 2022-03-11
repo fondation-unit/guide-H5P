@@ -21,30 +21,40 @@
       <meta name="copyright" content="Fondation UNIT">
       <title>H5P, créons ensemble</title>
     </head>
-    
+
     <body>
       <!-- Menu Start-->
       <header id="home" class="home-section header-top-area">
-        <div class="container">
+        <div class="container container-nav">
           <div class="row">
-            <div class="col-12 col-sm-3">
+            <div class="col-sm-3 nav">
               <div class="slogan">
                   <a href="index.html">- H5P, créons ensemble -</a>
               </div>
             </div>
-            <div class="col-12 col-sm-9">
+            <div class="col-sm-8 nav">
               <div class="navigation-menu">
-                <ul class="nav navbar-nav ">
-                  <li><a class="smoth-scroll" href="#introduction">Home</a></li>
-                  <li><a class="smoth-scroll" href="#listing">listing</a></li>
-                  <li><a class="smoth-scroll" href="#kit-dev">Kit du développeur</a></li>
-                </ul>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav ">
+                    <li><a class="smoth-scroll" href="#introduction">Home</a></li>
+                    <li><a class="smoth-scroll" href="src/listing/listing.html">listing</a></li>
+                    <li><a class="smoth-scroll" href="src/kitdev/kitdev.html">Kit du développeur</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </header>
-      
+
       <!-- Introduction Start -->
       <section id="banner" class="banner-section">
         <div class="container">
@@ -52,7 +62,8 @@
             <div class="col-sm-6">
               <div id="banner-title">
                 <h2>- H5P, créons ensemble -</h2>
-                <p>blabla</p>
+                <p>Ce guide de création H5P vous propose un soutien dans la création de vos ressources numérique.
+                  Vous retrouvez les fiches de toutes les activités H5P, des exemples des ressources, mais aussi des liens d’aide. </p>
               </div>
             </div>
             <div class="col-sm-6">
@@ -62,7 +73,7 @@
           </div>
         </div>
       </section>
-      
+
       <!-- choix Start -->
       <section id="choix" class="choix-section">
         <div class="container">
@@ -70,10 +81,10 @@
             <div class="col-md-12">
               <div class="section-title">
                 <h2>- Vous souhaitez -</h2>
-                <p>Ce guide a pour but de présenter, sous deux angles, les possibilités que vous offre H5P. 
-                  Tout d’abord, vous trouverez un listing de l’ensemble des activités H5P. 
-                  Vous pouvez les trier en fonction de vos besoins (texte, audio, quiz...). 
-                  Une autre partie vous propose plusieurs cas concrets d’utilisation d’H5P. 
+                <p>Ce guide a pour but de présenter, sous deux angles, les possibilités que vous offre H5P.
+                  Tout d’abord, vous trouverez un listing de l’ensemble des activités H5P.
+                  Vous pouvez les trier en fonction de vos besoins (texte, audio, quiz...).
+                  Une autre partie vous propose plusieurs cas concrets d’utilisation d’H5P.
                   Ces cas sont des démonstrations extraites de modules médiatisés par UNIT.</p>
                   <div class="choix-navigation">
                     <div class="col-md-4  mix-choix">
@@ -90,7 +101,7 @@
                         <a href="src/kitdev/kitdev.html" class="portfolio-popup" title="Project Title">
                           <img src="assets/images/illustration/kitdev.png" alt="">
                           <h3>Kit du developpeur</h3>
-                          <p>Dans cette partie, nous vous proposons quelques exemples précis d’utilisation d’H5P. 
+                          <p>Dans cette partie, nous vous proposons quelques exemples précis d’utilisation d’H5P.
                             Ces cas requièrent l’utilisation de plusieurs activités d’H5P.</p>
                         </a>
                       </div>
@@ -101,8 +112,8 @@
             </div>
           </div>
         </section>
-      
-      
+
+
       <!-- lien Start -->
       <section id="lien" class="lien-section">
         <div class="container">
@@ -110,28 +121,44 @@
             <div class="col-md-12">
               <div class="section-title">
                 <h2>- En savoir plus -</h2>
-                <div class="lien-navigation">
-                  <div class=" col-sm-6 mix-lien">
+                <div class="lien-navigation container">
+                  <div class="col-sm-6 col-md-4  mix-lien">
                     <div class="col-inner-lien">
-                      <a href="src/listing/listing.html" class="portfolio-popup" title="Project Title">
+                      <a href="https://h5p.org/" class="portfolio-popup" title="Project Title">
                         <img src="assets/images/illustration/lien/H5P-logo.svg" alt="">
-                        <h3>H5P</h3>
+                        <h3>Site officiel d'H5P</h3>
                       </a>
                     </div>
                   </div>
-                  <div class=" col-sm-6 mix-lien">
+                  <div class="col-sm-6 col-md-4  mix-lien">
                     <div class="col-inner-lien">
-                      <a href="src/kitdev/kitdev.html" class="portfolio-popup" title="Project Title">
-                        <img src="assets/images/illustration/lien/kitdev.png" alt="">
-                        <h3>Webinaire Organisé par la fondation UNIT</h3>
+                      <a href="https://unit.eu/actualites/webinaire-h5p-consultez-le-replay" class="portfolio-popup" title="Project Title">
+                        <img src="assets/images/illustration/lien/webinaire.png" alt="">
+                        <h3>Replay et FAQ autour du Webinaire Organisé par la fondation UNIT</h3>
                       </a>
                     </div>
                   </div>
-                  <div class=" col-sm-6 mix-lien">
+                  <div class="col-sm-6 col-md-4 mix-lien">
                     <div class="col-inner-lien">
-                      <a href="src/listing/listing.html" class="portfolio-popup" title="Project Title">
+                      <a href="https://moodle.luniversitenumerique.fr/course/index.php?categoryid=45" class="portfolio-popup" title="Project Title">
                         <img src="assets/images/illustration/lien/logo-PUNCHY.png" alt="">
-                        <h3>Punchy production de ressource sous H5P</h3>
+                        <h3>Projet de production de ressources numériques à large potentiel de réutilisation sous H5P</h3>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4  mix-lien">
+                    <div class="col-inner-lien">
+                      <a href="https://lumi.education/fr/" class="portfolio-popup" title="Project Title">
+                        <img src="assets/images/illustration/lien/logo-lumi.svg" alt="">
+                        <h3>Application de bureau qui vous permet de manipuler H5P</h3>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4  mix-lien">
+                    <div class="col-inner-lien">
+                      <a href="https://h5p.org/documentation/for-authors/tutorials" class="portfolio-popup" title="Project Title">
+                        <img src="assets/images/illustration/lien/H5P-tutoriel.png" alt="">
+                        <h3>Tutoriel pour les auteurs documentation officielle d'H5P</h3>
                       </a>
                     </div>
                   </div>
@@ -141,10 +168,10 @@
           </div>
         </div>
       </section>
-      
 
-        
-        
+
+
+
         <!-- Footer Start -->
         <footer class="footer-section">
           <div class="container-fluid">
@@ -166,8 +193,8 @@
           </div>
         </footer>
         <!-- Footer End -->
-              
-        <script type="text/javascript" src="assets/js/jquery.min.js"></script>    
+
+        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
         <script src="assets/js/mixitup.min.js"></script>
         <script type="text/javascript" src="assets/js/plugin.js"></script>
         <script type="text/javascript" src="assets/js/scripts.js"></script>
