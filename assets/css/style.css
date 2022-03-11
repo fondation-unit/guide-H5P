@@ -115,7 +115,8 @@ li {
 
 
 .donnees-section,
-.lien-section{
+.lien-section,
+{
   background: #E0E0E0;
 }
 .lien-section{
@@ -124,7 +125,8 @@ li {
 .kit-dev-section,
 .choix-section,
 .listing-section,
-.exemple-section{
+.exemple-section,
+.video-section{
   background: #F4F4F4;
 }
 
