@@ -114,11 +114,7 @@ li {
 }
 
 
-.donnees-section,
-.lien-section,
-{
-  background: #E0E0E0;
-}
+
 .lien-section,
 .exemple-section{
   background: #fff;
@@ -451,8 +447,8 @@ li {
 .col-inner:hover,
 .col-inner-kit:hover{
   top: -5px;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
   box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
 }
 .mix .col-inner p {
@@ -490,29 +486,37 @@ li {
   box-sizing: border-box;
   min-height: 300px;
 }
+.img-kitdevlist{
+  background-image: url(../../assets/images/kitdev/ordinateur.png);
+  background-position-x: 50%;
+  background-position-y: 30%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 0;
+  box-sizing: border-box;
+  min-height: 180px;
+}
 .mix .col-inner-kit {
-  display: inline-block;
-  vertical-align: top;
-  border-radius: 200px;
-  min-height: 200px;
-  background: #fff;
-  position: relative;
-  margin: 5px 0;
-  padding: 22px;
-  width: 100%;
+  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+  min-height: 360px;
 }
 .col-inner-kit:hover {
-  border-radius: 200px 200px 10px 200px;
+  top:-10px
 }
 .col-inner-kit p{
   padding: 15px 0 15px 0!important;
 }
-.col-inner-kit .fa{
-  color: #a2dcec;
+.kit-1 {
+    color: rgba(124, 195, 206, 1);
 }
-.col-inner-kit:hover .fa{
-  color: #666666;
+.kit-2 {
+    color: rgba(174, 202, 207, .8);
 }
+.kit-2 .col-inner{
+    border: 1px solid rgba(174, 202, 207, .8);
+    border-top: .5rem solid currentColor;
+}
+
 
 /* page kit-dev
 ---------------------------------------------------------------------- */
@@ -526,6 +530,7 @@ li {
   box-sizing: border-box;
   min-height: 300px;
 }
+
 .margin-top-bottom-50{
   margin: 50px 0 50px 0;
 }
