@@ -1,0 +1,125 @@
+@import "colors";
+@import "fonts";
+@import "banner";
+@import "choix";
+@import "container";
+@import "elements";
+@import "footer";
+@import "kit";
+@import "liens";
+@import "listing";
+@import "mix";
+@import "navigation";
+@import "sections";
+@import "titles";
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    height: 100%;
+    font-family: 'Poppins', sans-serif !important;
+    color: $text;
+}
+
+html,
+body {
+    height: 100%;
+    background: $bg;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* section title, p, ul, li....
+---------------------------------------------------------------------- */
+.container-fluid {
+    padding-right: 45px !important;
+    padding-left: 45px !important;
+}
+
+/* Pages listing
+---------------------------------------------------------------------- */
+
+.col-inner-donnees ul,
+.col-inner-donnees p {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.controls {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.control {
+    position: relative;
+    display: inline-block;
+    background: #a6a6a6;
+    cursor: pointer;
+    color: white;
+    margin: 5px 10px;
+    transition: background 150ms;
+    padding: 5px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+}
+.mixitup-control-active {
+    background: #444;
+}
+.control:hover {
+    background: #3f3f3f;
+}
+.type-media {
+  display: inline-flex;
+  background-image: linear-gradient(45deg, #7cc3ce, 100%, #7cc3ce);
+  background-position: 0px 100%;
+  background-position-x: 0px;
+  background-position-y: 100%;
+  background-repeat: repeat-x;
+  background-size: 100% 2px;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+.dynamique-media {
+  padding-top: 10px;
+}
+
+
+
+
+.column-yes {
+    color: rgba(124, 195, 206, 1);
+}
+
+.column-no {
+    color: rgba(174, 202, 207, .8);
+
+    &:before {
+        position: absolute;
+        background-color: rgba(139, 212, 232, .8);
+        color: #444444;
+        font-size: .95em;
+        content: "Pas dans Colonne";
+        margin-top: 10px;
+        right: 16px;
+        padding: 3px 10px 3px 5px;
+        border-radius: 0 0 0 4px;
+        z-index: 2;
+    }
+}
+
+.margin-top-bottom-50 {
+    margin: 50px 0 50px 0;
+}
+
+.video-title h2,
+.exemple-title h2{
+    font-size: 3em;
+    font-family: 'Caveat', sans-serif;
+}
+

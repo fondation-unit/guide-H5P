@@ -1,0 +1,24 @@
+.lien-navigation {
+    height: auto;
+}
+
+.col-inner-lien {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 2px 2px 2px 2px;
+    min-height: 300px;
+    background: $bgAlt;
+    position: relative;
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 8px 10px 15px 0px rgba(90, 91, 95, 0.3);
+
+    &:hover{
+        top: -13px;
+    }
+
+    img {
+        width: 100%;
+    }
+}

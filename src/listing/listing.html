@@ -6,8 +6,6 @@
       <!-- Favicon -->
       <link rel="icon" type="image/jpg" href="../../assets/images/favicon/punchy-logo-icon.jpg" />
       <link rel="icon" href="../../assets/images/favicon/punchy-logo-icon.ico" />
-      <!-- All CSS Plugins -->
-      <link rel="stylesheet" type="text/css" href="../../asserts/js/plugin.css">
       <!-- Main CSS Stylesheet -->
       <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
       <link rel="stylesheet" type="text/css" href="../../assets/css/reset.css">
@@ -86,7 +84,7 @@
               <button type="button" class="control" data-toggle=".statique">Statique</button>
             </div>
           </div>
-          <div class="container">
+          <div class="container listing-container">
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte statique column-yes">
                 <div class="col-inner">
                   <a href="../../src/listing/accordion.html" class="listing-popup" title="Project Title">
@@ -474,12 +472,12 @@
         </footer>
         <!-- Footer End -->
 
-        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/mixitup.min.js"></script>
-        <script type="text/javascript" src="assets/js/plugin.js"></script>
-        <script type="text/javascript" src="assets/js/scripts.js"></script>
+        <script type="text/javascript" src="../../assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="../../assets/js/mixitup.min.js"></script>
+        <script type="text/javascript" src="../../assets/js/plugin.js"></script>
+        <script type="text/javascript" src="../../assets/js/scripts.js"></script>
         <script>
-            var containerEl = document.querySelector('.container');
+            var containerEl = document.querySelector('.listing-container');
             var mixer = mixitup(containerEl, {
                 controls: {
                     toggleLogic: 'and'
