@@ -4,6 +4,8 @@
   "description": "Guide H5P",
   "main": "index.js",
   "scripts": {
+    "sass": "sass --watch --no-source-map src/scss/styles.scss assets/css/styles.css",
+    "sass:prod": "sass --no-source-map src/scss/styles.scss assets/css/styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/fondation-unit/guideh5p/issues"
   },
-  "homepage": "https://github.com/fondation-unit/guideh5p#readme"
+  "homepage": "https://github.com/fondation-unit/guideh5p#readme",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
 }

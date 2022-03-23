@@ -1,0 +1,71 @@
+#kitdev-img {
+    background-image: url(../../assets/images/illustration/kitdev.png);
+    background-position-x: 50%;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 300px;
+}
+
+#kitdevdetail-img {
+    background-image: url(../../assets/images/illustration/kitdevdetail.png);
+    background-position-x: 50%;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 300px;
+}
+
+.img-kitdevlist1 {
+    background-image: url(../../assets/images/kitdev/ordinateur.png);
+    background-position-x: 50%;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 180px;
+}
+
+.img-kitdevlist2 {
+    background-image: url(../../assets/images/kitdev/document.png);
+    background-position-x: 50%;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 180px;
+}
+
+.mix .col-inner-kit {
+    box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+    min-height: 360px;
+
+    .col-inner-kit {
+        &:hover {
+            top:-10px
+        }
+    
+        p {
+            padding: 15px 0 15px 0!important;
+        }
+    }
+}
+
+.kit-1 {
+    color: rgba(124, 195, 206, 1);
+}
+
+.kit-2 {
+    color: rgba(174, 202, 207, .8);
+
+    .col-inner{
+        border: 1px solid rgba(174, 202, 207, .8);
+        border-top: .5rem solid currentColor;
+    }
+}
