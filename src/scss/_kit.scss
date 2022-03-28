@@ -42,20 +42,23 @@
     min-height: 180px;
 }
 
-.mix .col-inner-kit {
+.col-inner-kit {
     box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-    min-height: 360px;
+    min-height: 370px !important;
 
-    .col-inner-kit {
-        &:hover {
-            top:-10px
+      &:hover {
+            top:-5px;
+            box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+            border-radius: 2px 2px 2px 40px;
+            -webkit-transition: all 0.6s ease-in-out;
+            transition: all 0.6s ease-in-out;
         }
-    
+
         p {
             padding: 15px 0 15px 0!important;
         }
-    }
 }
+
 
 .kit-1 {
     color: rgba(124, 195, 206, 1);

@@ -36,7 +36,7 @@
   display: inline-block;
   vertical-align: top;
   border-radius: 2px 2px 40px 2px;
-  min-height: 460px;
+  min-height: 490px;
   background: white;
   position: relative;
   margin: 5px 0;
@@ -184,14 +184,18 @@ iframe {
   min-height: 180px;
 }
 
-.mix .col-inner-kit {
+.col-inner-kit {
   box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-  min-height: 360px;
+  min-height: 370px !important;
 }
-.mix .col-inner-kit .col-inner-kit:hover {
-  top: -10px;
+.col-inner-kit:hover {
+  top: -5px;
+  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+  border-radius: 2px 2px 2px 40px;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
-.mix .col-inner-kit .col-inner-kit p {
+.col-inner-kit p {
   padding: 15px 0 15px 0 !important;
 }
 
@@ -301,7 +305,7 @@ iframe {
 .mix .col-inner p {
   font-size: 1.2em;
 }
-.mix .col-inner .col-inner-kit:hover {
+.mix .col-inner:hover {
   top: -5px;
   -webkit-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
@@ -400,15 +404,11 @@ iframe {
     box-shadow: none;
   }
 }
-.lien-section,
-.exemple-section {
+.bg1 {
   background: white;
 }
 
-.kit-dev-section,
-.choix-section,
-.listing-section,
-.video-section {
+.bg2 {
   background: #F4F4F4;
 }
 
