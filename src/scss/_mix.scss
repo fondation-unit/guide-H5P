@@ -1,6 +1,6 @@
 .mix-donnees {
     height: auto;
-    
+
     .col-inner-donnees {
         display: inline-block;
         vertical-align: top;
@@ -38,13 +38,11 @@
             font-size: 1.2em;
         }
 
-        .col-inner-kit {
-            &:hover{
-                top: -5px;
-                -webkit-transition: all 0.7s ease-in-out;
-                transition: all 0.7s ease-in-out;
-                box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-            }
+        &:hover{
+          top: -5px;
+          -webkit-transition: all 0.7s ease-in-out;
+          transition: all 0.7s ease-in-out;
+          box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
         }
     }
 }

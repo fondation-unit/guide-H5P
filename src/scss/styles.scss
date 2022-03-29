@@ -42,6 +42,18 @@ body {
     padding-left: 45px !important;
 }
 
+.bg1{
+  background: white;
+}
+
+.bg2{
+  background: $bgAlt;
+}
+
+.blod{
+  font-weight: bold;
+}
+
 /* Pages listing
 ---------------------------------------------------------------------- */
 
@@ -122,4 +134,3 @@ body {
     font-size: 3em;
     font-family: 'Caveat', sans-serif;
 }
-
