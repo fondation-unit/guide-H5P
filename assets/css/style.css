@@ -162,8 +162,8 @@ iframe {
   min-height: 300px;
 }
 
-.img-kitdevlist1 {
-  background-image: url(../../assets/images/kitdev/ordinateur.png);
+.img-kitdevcours {
+  background-image: url(../../assets/images/kitdev/cours.png);
   background-position-x: 50%;
   background-position-y: 30%;
   background-repeat: no-repeat;
@@ -173,8 +173,8 @@ iframe {
   min-height: 180px;
 }
 
-.img-kitdevlist2 {
-  background-image: url(../../assets/images/kitdev/document.png);
+.img-kitdevquiz {
+  background-image: url(../../assets/images/kitdev/quiz.png);
   background-position-x: 50%;
   background-position-y: 30%;
   background-repeat: no-repeat;
@@ -199,14 +199,14 @@ iframe {
   padding: 15px 0 15px 0 !important;
 }
 
-.kit-1 {
+.kit-cours {
   color: #7cc3ce;
 }
 
-.kit-2 {
+.kit-quiz {
   color: rgba(174, 202, 207, 0.8);
 }
-.kit-2 .col-inner {
+.kit-quiz .col-inner {
   border: 1px solid rgba(174, 202, 207, 0.8);
   border-top: 0.5rem solid currentColor;
 }
@@ -404,14 +404,6 @@ iframe {
     box-shadow: none;
   }
 }
-.bg1 {
-  background: white;
-}
-
-.bg2 {
-  background: #F4F4F4;
-}
-
 .home-section {
   width: 100%;
   left: 0;
@@ -485,6 +477,18 @@ body {
 .container-fluid {
   padding-right: 45px !important;
   padding-left: 45px !important;
+}
+
+.bg1 {
+  background: white;
+}
+
+.bg2 {
+  background: #F4F4F4;
+}
+
+.blod {
+  font-weight: bold;
 }
 
 /* Pages listing

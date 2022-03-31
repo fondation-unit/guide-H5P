@@ -70,65 +70,80 @@
             <div class="section-title">
               <h2>- Les exemples -</h2>
             </div>
-            <div class="container">
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix kit-1">
+            <div class="controls">
+              <div class="type-media">
+                <button type="button" class="control" data-filter="all">Toutes</button>
+                <button type="button" class="control" data-toggle=".redaction">Redaction</button>
+                <button type="button" class="control" data-toggle=".audio">Audio</button>
+                <button type="button" class="control" data-toggle=".image">Image</button>
+                <button type="button" class="control" data-toggle=".feedback">Feedback</button>
+                <button type="button" class="control" data-toggle=".video">Vidéo</button>
+                <button type="button" class="control" data-toggle=".math">Formule Math</button>
+              </div>
+              <div class="dynamique-media col-12">
+                <button type="button" class="control" data-toggle=".quiz">Quiz</button>
+                <button type="button" class="control" data-toggle=".cours">Cours</button>
+              </div>
+            </div>
+            <div class="container listing-container">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz audio kit-quiz">
                 <div class="col-inner col-inner-kit">
                   <a href="question-sons.html">
-                    <div class="img-kitdevlist1"></div>
-                    <h4>Questions avec du son</h4>
+                    <div class="img-kitdevquiz"></div>
+                    <h4>Questions avec de l'audio</h4>
                     <p>Comment ajouter un son dans un quiz</p>
                   </a>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix kit-2">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz math kit-quiz">
                 <div class="col-inner col-inner-kit">
                   <a href="question-math.html">
-                    <div class="img-kitdevlist2"></div>
+                    <div class="img-kitdevquiz"></div>
                     <h4>Questions avec formule de math</h4>
                     <p>Créer un quiz avec des formules Latex</p>
                   </a>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix kit-1">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image cours kit-cours">
                 <div class="col-inner col-inner-kit">
                   <a href="legendeImg.html">
-                    <div class="img-kitdevlist1"></div>
+                    <div class="img-kitdevcours"></div>
                     <h4>Mettre une légende à une image</h4>
                     <p>Ajouter du texte sous l'image</p>
                   </a>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mix kit-2">
+              <div class="col-sm-6 col-md-4 col-lg-3 mix quiz feedback kit-quiz">
                 <div class="col-inner col-inner-kit">
                   <a href="TD.html">
-                    <div class="img-kitdevlist2"></div>
+                    <div class="img-kitdevquiz"></div>
                     <h4>TD avec correction type</h4>
                     <p>Proposer un exercice sans redaction</p>
                   </a>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mix kit-1">
+              <div class="col-sm-6 col-md-4 col-lg-3 mix cours kit-cours">
                 <div class="col-inner col-inner-kit">
                   <a href="bloc-important.html">
-                    <div class="img-kitdevlist1"></div>
+                    <div class="img-kitdevcours"></div>
                     <h4>Créer un bloc important</h4>
                     <p>Mettre en evidence du texte par un cadre</p>
                   </a>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mix kit-2">
+              <div class="col-sm-6 col-md-4 col-lg-3 mix quiz audio image feedback kit-quiz">
                 <div class="col-inner col-inner-kit">
                   <a href="questionSonImage.html">
-                    <div class="img-kitdevlist2"></div>
-                    <h4>Question avec son et image </h4>
+                    <div class="img-kitdevquiz"></div>
+                    <h4>Question avec audio et image </h4>
                     <p>Image et son dans la question et dans le feedback</p>
                   </a>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mix kit-1">
+              <div class="col-sm-6 col-md-4 col-lg-3 mix quiz redaction kit-quiz">
                 <div class="col-inner col-inner-kit">
                   <a href="redactionlibre.html">
-                    <div class="img-kitdevlist1"></div>
+                    <div class="img-kitdevquiz"></div>
                     <h4>Créer un exercice de redaction</h4>
                     <p>Avec une piste de correction</p>
                   </a>
@@ -169,6 +184,18 @@
           </div>
         </footer>
         <!-- Footer End -->
+        <script type="text/javascript" src="../../assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="../../assets/js/mixitup.min.js"></script>
+        <script type="text/javascript" src="../../assets/js/plugin.js"></script>
+        <script type="text/javascript" src="../../assets/js/scripts.js"></script>
+        <script>
+            var containerEl = document.querySelector('.listing-container');
+            var mixer = mixitup(containerEl, {
+                controls: {
+                    toggleLogic: 'and'
+                }
+            });
+        </script>
 
         <script type="text/javascript" src="../../assets/js/jquery.min.js"></script>
         <script type="text/javascript" src="../../assets/js/plugin.js"></script>

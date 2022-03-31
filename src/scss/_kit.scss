@@ -20,8 +20,8 @@
     min-height: 300px;
 }
 
-.img-kitdevlist1 {
-    background-image: url(../../assets/images/kitdev/ordinateur.png);
+.img-kitdevcours {
+    background-image: url(../../assets/images/kitdev/cours.png);
     background-position-x: 50%;
     background-position-y: 30%;
     background-repeat: no-repeat;
@@ -31,8 +31,8 @@
     min-height: 180px;
 }
 
-.img-kitdevlist2 {
-    background-image: url(../../assets/images/kitdev/document.png);
+.img-kitdevquiz {
+    background-image: url(../../assets/images/kitdev/quiz.png);
     background-position-x: 50%;
     background-position-y: 30%;
     background-repeat: no-repeat;
@@ -60,11 +60,11 @@
 }
 
 
-.kit-1 {
+.kit-cours {
     color: rgba(124, 195, 206, 1);
 }
 
-.kit-2 {
+.kit-quiz {
     color: rgba(174, 202, 207, .8);
 
     .col-inner{
