@@ -33,9 +33,9 @@
             <div class="col-12 col-sm-9">
               <div class="navigation-menu">
                 <ul class="nav navbar-nav ">
-                  <li><a class="smoth-scroll" href="../../index.html">Home</a></li>
                   <li><a class="smoth-scroll" href="#">listing</a></li>
                   <li><a class="smoth-scroll" href="../../src/kitdev/kitdev.html">Kit du développeur</a></li>
+                  <li><a class="smoth-scroll" href="../savoir/savoir.html">En savoir +</a></li>
                 </ul>
               </div>
             </div>
@@ -61,13 +61,36 @@
         </div>
       </section>
 
+      <!-- Point vocabulaire -->
+      <section id="vocabulaire" class="vocabulaire-section bg2">
+        <div class="container">
+          <div class="row margin-top-bottom-50">
+            <div class="col-sm-5">
+              <div class="vocabulaire-img">
+
+              </div>
+            </div>
+            <div class="col-sm-7">
+              <h2>- Point vocabulaire -</h2>
+              <p>Pour créer du contenu interactif, H5P met à disposition de nombreux types d'activités.
+                Parmi toutes ces activités, trois sortent du lot : Course Présentation, Column, Interactive Book.
+                Ces activités sont appelées des conteneurs. C'est-à-dire qu'elles permettent d'associer plusieurs activités H5P
+                au sein d'un document unique H5P.<br>
+                Dans cette partie listing, une mise en évidence des activités non disponibles dans ces conteneurs
+                est en place via le bandeau "hors container".
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       <!-- Listing Start -->
       <section id="listing" class="listing-section bg2">
         <div class="container-fluid">
           <div class="section-title">
-            <h2>- Listing -</h2>
-            <p>Vous pouvez, ici, trier les activités en fonction de leurs types (audio, texte...) puis de leur genre (dynamique ou statique).<br>
+            <h2>- Réalisez votre recherche -</h2>
+            <p>Vous pouvez, ici, trier les activités en fonction de leurs types (audio, texte...) puis de leur genre (entrainement ou cours).<br>
             Chaque activité vous sera présentée avec un exemple et des éléments informatifs.</p>
           </div>
           <div class="controls">
@@ -80,8 +103,8 @@
               <button type="button" class="control" data-toggle=".quiz">Quiz</button>
             </div>
             <div class="dynamique-media col-12">
-              <button type="button" class="control" data-toggle=".dynamique">Dynamique</button>
-              <button type="button" class="control" data-toggle=".statique">Statique</button>
+              <button type="button" class="control" data-toggle=".entrainement">Entrainement</button>
+              <button type="button" class="control" data-toggle=".statique">Cours</button>
             </div>
           </div>
           <div class="container listing-container">
@@ -94,7 +117,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image dynamique column-yes">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image statique column-yes">
                 <div class="col-inner">
                   <a href="../../src/listing/agamotto.html" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/agamotto.png" alt="">
@@ -103,7 +126,7 @@
                   </a>
                 </div>
               </div>
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz dynamique column-no">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz entrainement column-no">
                 <div class="col-inner">
                   <a href="../../images/listing/basic-arithmetic.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/basic-arithmetic.png" alt="">
@@ -112,7 +135,7 @@
                   </a>
                 </div>
               </div>-->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio dynamique column-yes">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio entrainement column-yes">
                 <div class="col-inner">
                   <a href="../../src/listing/audio-recorder.html" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/audio-recorder.png" alt="audio-recorder">
@@ -148,7 +171,7 @@
                   </a>
                 </div>
               </div>
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte dynamique column-no">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte entrainement column-no">
                 <div class="col-inner">
                   <a href="../../src/listing/Cornell-notes.html" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/Cornell-notes.png" alt="">
@@ -157,7 +180,7 @@
                   </a>
                 </div>
               </div>-->
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte dynamique column-no">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte entrainement column-no">
                 <div class="col-inner">
                   <a href="../../images/listing/crosswords.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/crosswords.png" alt="">
@@ -166,7 +189,7 @@
                   </a>
                 </div>
               </div>-->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image texte dynamique quiz column-yes">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image texte entrainement quiz column-yes">
                 <div class="col-inner">
                   <a href="../../src/listing/dialog_cards.html" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/dialog_cards.png" alt="dialog cards">
@@ -175,7 +198,7 @@
                   </a>
                 </div>
               </div>
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio dynamique column-no">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio entrainement column-no">
                 <div class="col-inner">
                   <a href="../../images/listing/dictation.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/dictation.png" alt="">
@@ -184,7 +207,7 @@
                   </a>
                 </div>
               </div>-->
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio dynamique column-yes">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio entrainement column-yes">
                 <div class="col-inner">
                   <a href="../../images/listing/documentation-tool.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/documentation-tool.png" alt="">
@@ -193,7 +216,7 @@
                   </a>
                 </div>
               </div>-->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image texte dynamique quiz column-yes">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image texte entrainement quiz column-yes">
                 <div class="col-inner">
                   <a href="../../src/listing/drag-and-drop.html" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/drag-and-drop.png" alt="drag-and-drop">
@@ -202,7 +225,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte dynamique quiz column-yes">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte entrainement quiz column-yes">
                 <div class="col-inner">
                   <a href="../../src/listing/drag-the-words.html" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/drag-the-words.png" alt="drag-the-words">
@@ -211,7 +234,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte dynamique quiz column-yes">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte entrainement quiz column-yes">
                 <div class="col-inner">
                   <a href="../../src/listing/essay.html" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/essay.png" alt="essay">
@@ -220,7 +243,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz dynamique text column-yes">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz entrainement text column-yes">
                 <div class="col-inner">
                   <a href="../../src/listing/fill-in-the-blanks.html" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/fill-in-the-blanks.png" alt="fill in the blanks">
@@ -229,7 +252,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz dynamique text column-no">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz entrainement text column-no">
                 <div class="col-inner">
                   <a href="../../src/listing/advanced-fill-in-the-blanks.html" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/advanced-fill-in-the-blanks.png" alt="advanced-fill-in-the-blanks">
@@ -247,7 +270,7 @@
                   </a>
                 </div>
               </div>-->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image dynamique quiz column-yes">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image entrainement quiz column-yes">
                 <div class="col-inner">
                   <a href="../../src/listing/image_hotspot-question.html" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/image_hotspot-question.png" alt="image hotspot question">
@@ -256,7 +279,7 @@
                   </a>
                 </div>
               </div>
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte dynamique quiz column-no">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte entrainement quiz column-no">
                 <div class="col-inner">
                   <a href="../../images/listing/word-search.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/word-search.png" alt="">
@@ -265,7 +288,7 @@
                   </a>
                 </div>
               </div>-->
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image dynamique column-no">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image entrainement column-no">
                 <div class="col-inner">
                   <a href="../../images/listing/flashcards.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/flashcards.png" alt="">
@@ -274,7 +297,7 @@
                   </a>
                 </div>
               </div>-->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image video dynamique column-yes">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image video entrainement column-yes">
                 <div class="col-inner">
                   <a href="../../src/listing/guess-the-answer.html" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/guess-the-answer.png" alt="guess the answer">
@@ -310,7 +333,7 @@
                   </a>
                 </div>
               </div>-->
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image dynamique column-no">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image entrainement column-no">
                 <div class="col-inner">
                   <a href="../../images/listing/image-pairing.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/image-pairing.png" alt="">
@@ -319,7 +342,7 @@
                   </a>
                 </div>
               </div>-->
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image dynamique column-no">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image entrainement column-no">
                 <div class="col-inner">
                   <a href="../../images/listing/image-sequnce.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/image-sequnce.png" alt="">
@@ -346,7 +369,7 @@
                   </a>
                 </div>
               </div>-->
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte dynamique column-yes">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte entrainement column-yes">
                 <div class="col-inner">
                   <a href="../../images/listing/mark-the-words.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/mark-the-words.png" alt="">
@@ -355,7 +378,7 @@
                   </a>
                 </div>
               </div>-->
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image dynamique column-no">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image entrainement column-no">
                 <div class="col-inner">
                   <a href="../../images/listing/memory-game.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/memory-game.png" alt="">
@@ -364,7 +387,7 @@
                   </a>
                 </div>
               </div>-->
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz dynamique image audio column-yes">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz entrainement image audio column-yes">
                 <div class="col-inner">
                   <a href="../../images/listing/multichoice.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/multichoice.png" alt="">
@@ -373,7 +396,7 @@
                   </a>
                 </div>
               </div>-->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz dynamique texte image audio column-yes">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz entrainement texte image audio column-yes">
                 <div class="col-inner">
                   <a href="../../src/listing/question-set.html" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/question-set.png" alt="question set">
@@ -382,7 +405,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz dynamique texte column-yes">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz entrainement texte column-yes">
                 <div class="col-inner">
                   <a href="../../src/listing/single-choice-set.html" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/single-choice-set.png" alt="single choice set">
@@ -391,7 +414,7 @@
                   </a>
                 </div>
               </div>
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte dynamique column-no">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte entrainement column-no">
                 <div class="col-inner">
                   <a href="../../images/listing/sort-paragraphs.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/sort-paragraphs.png" alt="">
@@ -400,7 +423,7 @@
                   </a>
                 </div>
               </div>-->
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio dynamique column-no">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio entrainement column-no">
                 <div class="col-inner">
                   <a href="../../images/listing/speak-the-words.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/speak-the-words.png" alt="">
@@ -409,7 +432,7 @@
                   </a>
                 </div>
               </div>-->
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio dynamique column-no">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio entrainement column-no">
                 <div class="col-inner">
                   <a href="../../images/listing/speak-the-words-set.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/speak-the-words-set.png" alt="">
@@ -418,7 +441,7 @@
                   </a>
                 </div>
               </div>-->
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image dynamique column-yes">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image entrainement column-yes">
                 <div class="col-inner">
                   <a href="../../images/listing/timeline.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/timeline.png" alt="">
@@ -427,7 +450,7 @@
                   </a>
                 </div>
               </div>-->
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio video dynamique column-yes">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix audio video entrainement column-yes">
                 <div class="col-inner">
                   <a href="../../src/listing/true-false.html" title="Question vrai/faux lien">
                     <img src="../../assets/images/listing/true-false.png" alt="vrai-faux">
@@ -436,7 +459,7 @@
                   </a>
                 </div>
               </div>
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte video dynamique column-yes">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix texte video entrainement column-yes">
                 <div class="col-inner">
                   <a href="../../images/listing/course_presentation.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/course_presentation.png" alt="">
@@ -445,7 +468,7 @@
                   </a>
                 </div>
               </div>-->
-              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix video dynamique column-yes">
+              <!--<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix video entrainement column-yes">
                 <div class="col-inner">
                   <a href="../../images/listing/interactive_video.png" class="portfolio-popup" title="Project Title">
                     <img src="../../assets/images/listing/interactive_video.png" alt="">

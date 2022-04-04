@@ -79,6 +79,9 @@
   font-weight: 500;
   margin: 20px 0px;
 }
+.container h4 {
+  font-size: 17px;
+}
 .container p {
   font-size: 13px;
   line-height: 20px;
@@ -162,8 +165,8 @@ iframe {
   min-height: 300px;
 }
 
-.img-kitdevlist1 {
-  background-image: url(../../assets/images/kitdev/ordinateur.png);
+.img-kitdevcours {
+  background-image: url(../../assets/images/illustration/cours.png);
   background-position-x: 50%;
   background-position-y: 30%;
   background-repeat: no-repeat;
@@ -173,8 +176,8 @@ iframe {
   min-height: 180px;
 }
 
-.img-kitdevlist2 {
-  background-image: url(../../assets/images/kitdev/document.png);
+.img-kitdevquiz {
+  background-image: url(../../assets/images/illustration/quiz.png);
   background-position-x: 50%;
   background-position-y: 30%;
   background-repeat: no-repeat;
@@ -186,7 +189,7 @@ iframe {
 
 .col-inner-kit {
   box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-  min-height: 370px !important;
+  min-height: 345px !important;
 }
 .col-inner-kit:hover {
   top: -5px;
@@ -196,17 +199,18 @@ iframe {
   transition: all 0.6s ease-in-out;
 }
 .col-inner-kit p {
-  padding: 15px 0 15px 0 !important;
+  padding: 15px 0 10px 0 !important;
+  font-size: 14px !important;
 }
 
-.kit-1 {
+.kit-cours {
   color: #7cc3ce;
 }
 
-.kit-2 {
+.kit-quiz {
   color: rgba(174, 202, 207, 0.8);
 }
-.kit-2 .col-inner {
+.kit-quiz .col-inner {
   border: 1px solid rgba(174, 202, 207, 0.8);
   border-top: 0.5rem solid currentColor;
 }
@@ -245,25 +249,19 @@ iframe {
   min-height: 300px;
 }
 
-.introduction-section-listing {
-  background: none;
-  padding: 0;
-  margin: 0;
-  font-weight: 550;
+.vocabulaire-section .vocabulaire-img {
+  background-image: url(../../assets/images/illustration/exclamation.svg);
+  background-position-x: 50%;
+  background-position-y: 30%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 0;
+  box-sizing: border-box;
+  min-height: 200px;
 }
-.introduction-section-listing img {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 100px;
-  height: auto;
-  opacity: 0.15;
-  width: 15%;
-  margin: auto;
-}
-.introduction-section-listing p {
-  background: rgba(255, 255, 255, 0.4);
-  padding: 5px;
+.vocabulaire-section .row {
+  background: rgba(124, 195, 206, 0.3);
+  padding: 55px 15px 55px 15px;
   width: auto;
   border-radius: 20px;
 }
@@ -404,14 +402,6 @@ iframe {
     box-shadow: none;
   }
 }
-.bg1 {
-  background: white;
-}
-
-.bg2 {
-  background: #F4F4F4;
-}
-
 .home-section {
   width: 100%;
   left: 0;
@@ -487,6 +477,18 @@ body {
   padding-left: 45px !important;
 }
 
+.bg1 {
+  background: white;
+}
+
+.bg2 {
+  background: #F4F4F4;
+}
+
+.blod {
+  font-weight: bold;
+}
+
 /* Pages listing
 ---------------------------------------------------------------------- */
 .col-inner-donnees ul,
@@ -546,15 +548,18 @@ body {
 }
 .column-no:before {
   position: absolute;
-  background-color: rgba(139, 212, 232, 0.8);
+  background-color: rgba(174, 202, 207, 0.8);
   color: #444444;
   font-size: 0.95em;
-  content: "Pas dans Colonne";
+  content: "Hors container";
   margin-top: 10px;
   right: 16px;
   padding: 3px 10px 3px 5px;
   border-radius: 0 0 0 4px;
   z-index: 2;
+}
+.column-no:hover::before {
+  top: -5px;
 }
 
 .margin-top-bottom-50 {
@@ -562,7 +567,8 @@ body {
 }
 
 .video-title h2,
-.exemple-title h2 {
+.exemple-title h2,
+.vocabulaire-section h2 {
   font-size: 3em;
   font-family: "Caveat", sans-serif;
 }
