@@ -9,26 +9,22 @@
     min-height: 300px;
 }
 
-.introduction-section-listing {
-    background : none;
-    padding: 0;
-    margin: 0;
-    font-weight: 550;
+.vocabulaire-section {
 
-    img {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 100px;
-        height: auto;
-        opacity: 0.15;
-        width: 15%;
-        margin: auto;
+    .vocabulaire-img {
+      background-image: url(../../assets/images/illustration/exclamation.svg);
+      background-position-x: 50%;
+      background-position-y: 30%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      bottom: 0;
+      box-sizing: border-box;
+      min-height: 200px;
     }
-    p {
-        background : rgba(255, 255, 255, 0.4);
-        padding: 5px;
-        width: auto;
-        border-radius: 20px;
+  .row {
+      background : rgba($main, 0.3);
+      padding: 55px 15px 55px 15px;
+      width: auto;
+      border-radius: 20px;
     }
 }
