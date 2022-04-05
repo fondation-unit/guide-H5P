@@ -164,10 +164,6 @@ iframe {
   min-height: 300px;
 }
 
-.kit-dev {
-  padding-bottom: 50px;
-}
-
 #exemple-cas {
   display: flex;
   align-items: center;
@@ -194,7 +190,6 @@ iframe {
 }
 .col-inner-kit .card .card-body {
   padding: 10px;
-  min-height: 110px;
 }
 .col-inner-kit .card .card-body p {
   padding-top: 5px !important;
@@ -420,10 +415,8 @@ iframe {
   margin-bottom: 30px;
 }
 .section-title h2 {
-  margin-top: 0;
   font-size: 3em;
-  margin: 0 auto;
-  margin-bottom: 0px;
+  margin: 30 0 0 0 auto;
   padding: 10px 0;
   width: auto;
   margin-bottom: 40px;
@@ -567,6 +560,10 @@ body {
 
 .margin-top-bottom-50 {
   margin: 50px 0 50px 0;
+}
+
+.padding-bottom-50 {
+  padding-bottom: 50px;
 }
 
 .video-title h2,
