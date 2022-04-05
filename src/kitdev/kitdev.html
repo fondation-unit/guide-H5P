@@ -34,7 +34,7 @@
               <div class="navigation-menu">
                 <ul class="nav navbar-nav ">
                   <li><a class="smoth-scroll" href="../../src/listing/listing.html">listing</a></li>
-                  <li><a class="smoth-scroll" href="#">Kit du développeur</a></li>
+                  <li><a class="smoth-scroll" href="#">Cas d'utilisation</a></li>
                   <li><a class="smoth-scroll" href="../savoir/savoir.html">En savoir +</a></li>
                 </ul>
               </div>
@@ -49,9 +49,27 @@
           <div class="row margin-top-70">
             <div class="col-sm-6">
               <div id="banner-title">
-                <h2>- Kit du développeur -</h2>
-                <p>Dans cette partie, nous vous proposons quelques exemples précis d’utilisation d’H5P.
-                  Ces cas requièrent l’utilisation de plusieurs activités d’H5P.</p>
+                <h2>- Cas d'utilisation -</h2>
+                <p>Malgré un catalogue d’activité très fourni il n’est pas toujours possible de trouver l’activité répondant à nos besoins.
+                  Dans cette partie, nous vous proposons des cas d’utilisation répondant à des besoins spécifiques non couvert par les activités H5P.
+                  Les exemples vous seront présentés de cette manière :</p>
+                  <div class="col-sm-12" id="exemple-cas">
+                    <div class="col-inner-kit col-sm-9">
+                      <div class="card">
+                        <div class="card-header"><h3>Titre</h3></div>
+                        <div class="card-body">
+                          <p>Description de l'exemple.</p>
+                          <a href="question-sons.html" class="btn btn-primary">Lien vers exemple</a>
+                        </div>
+                        <div class="card-footer">
+                          Liste de mots clef:
+                          <span class="badge motclef-conteneur">Conteneur H5P</span>
+                          <span class="badge motclef-activite">Activité H5P</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p>Cette partie est régulièrement mis à jours.</p>
               </div>
             </div>
             <div class="col-sm-6">
@@ -63,104 +81,125 @@
       </section>
 
 
-        <!-- Kit du développeur -->
-        <section id="kit-dev" class="kit-dev-section bg2">
+        <!-- Cas utilisation quiz -->
+        <section id="kit-dev" class="kit-dev bg2">
           <div class="container-fluid">
             <div class="section-title">
-              <h2>- Les exemples -</h2>
+              <h2>Dans des quiz...</h2>
             </div>
-            <div class="controls">
-              <div class="type-media">
-                <button type="button" class="control" data-filter="all">Toutes</button>
-                <button type="button" class="control" data-toggle=".redaction">Redaction</button>
-                <button type="button" class="control" data-toggle=".audio">Audio</button>
-                <button type="button" class="control" data-toggle=".image">Image</button>
-                <button type="button" class="control" data-toggle=".feedback">Feedback</button>
-                <button type="button" class="control" data-toggle=".video">Vidéo</button>
-                <button type="button" class="control" data-toggle=".math">Formule Math</button>
-              </div>
-              <div class="dynamique-media col-12">
-                <button type="button" class="control" data-toggle=".quiz">Quiz</button>
-                <button type="button" class="control" data-toggle=".cours">Cours</button>
+            <div class="col-inner-kit col-sm-6">
+              <div class="card">
+                <div class="card-header"><h3>Comment ajouter un audio dans un quiz</h3></div>
+                <div class="card-body">
+                  <p>Plusieurs propositions pour créer des questions avec un audio.
+                    Ces exemples utilisent à chaque fois un conteneur. </p>
+                  <a href="question-sons.html" class="btn btn-primary">Voir l'exemple</a>
+                </div>
+                <div class="card-footer">
+                  <span class="badge motclef-conteneur">Column</span>
+                  <span class="badge motclef-conteneur">Course presentation</span>
+                  <span class="badge motclef-activite">Audio</span>
+                  <span class="badge motclef-activite">Multiple Choice</span>
+                  <span class="badge motclef-activite">Drag and drop</span>
+                  <span class="badge motclef-activite">Question set</span>
+                </div>
               </div>
             </div>
-            <div class="container listing-container">
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz audio kit-quiz">
-                <div class="col-inner col-inner-kit">
-                  <a href="question-sons.html">
-                    <div class="img-kitdevquiz"></div>
-                    <h4>Questions avec de l'audio</h4>
-                    <p>Comment ajouter un son dans un quiz</p>
-                  </a>
+            <div class="col-inner-kit col-sm-6">
+              <div class="card">
+                <div class="card-header"><h3>Comment créer un quiz avec des formule de math</h3></div>
+                <div class="card-body">
+                  <p>Pour mettre en place des formules Mathématique il faut utiliser du latex.
+                    Mais son utilisation bloque certain usage de quiz.</p>
+                  <a href="question-math.html" class="btn btn-primary">Voir l'exemple</a>
+                </div>
+                <div class="card-footer">
+                  <span class="badge motclef-activite">Drag and drop</span>
+                  <span class="badge motclef-activite">Multiple Choice</span>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix quiz math kit-quiz">
-                <div class="col-inner col-inner-kit">
-                  <a href="question-math.html">
-                    <div class="img-kitdevquiz"></div>
-                    <h4>Questions avec formule de math</h4>
-                    <p>Créer un quiz avec des formules Latex</p>
-                  </a>
+            </div>
+            <div class="col-inner-kit col-sm-6">
+              <div class="card">
+                <div class="card-header"><h3>Comment proposer une correction type</h3></div>
+                <div class="card-body">
+                  <p>Dans ce cas il est proposé un exercice de type TD.
+                    Aucune rédaction en ligne est demandée. Mais pour chaque question une piste de correction est présentée.</p>
+                  <a href="TD.html" class="btn btn-primary">Voir l'exemple</a>
+                </div>
+                <div class="card-footer">
+                  <span class="badge motclef-conteneur">Column</span>
+                  <span class="badge motclef-activite">Text</span>
+                  <span class="badge motclef-activite">Dialog cards</span>
                 </div>
               </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mix image cours kit-cours">
-                <div class="col-inner col-inner-kit">
-                  <a href="legendeImg.html">
-                    <div class="img-kitdevcours"></div>
-                    <h4>Mettre une légende à une image</h4>
-                    <p>Ajouter du texte sous l'image</p>
-                  </a>
+            </div>
+            <div class="col-inner-kit col-sm-6">
+              <div class="card">
+                <div class="card-header"><h3>Comment créer une question avec image et audio</h3></div>
+                <div class="card-body">
+                  <p>Image et son dans la question et dans le feedback</p>
+                  <a href="questionSonImage.html" class="btn btn-primary">Voir l'exemple</a>
                 </div>
+                <div class="card-footer">...</div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mix quiz feedback kit-quiz">
-                <div class="col-inner col-inner-kit">
-                  <a href="TD.html">
-                    <div class="img-kitdevquiz"></div>
-                    <h4>TD avec correction type</h4>
-                    <p>Proposer un exercice sans redaction</p>
-                  </a>
+            </div>
+            <div class="col-inner-kit col-sm-6">
+              <div class="card">
+                <div class="card-header"><h3>Comment créer un exercice de rédaction sans essay</h3></div>
+                <div class="card-body">
+                  <p>Avec une piste de correction</p>
+                  <a href="redactionlibre.html" class="btn btn-primary">Voir l'exemple</a>
                 </div>
+                <div class="card-footer">...</div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mix cours kit-cours">
-                <div class="col-inner col-inner-kit">
-                  <a href="bloc-important.html">
-                    <div class="img-kitdevcours"></div>
-                    <h4>Créer un bloc important</h4>
-                    <p>Mettre en evidence du texte par un cadre</p>
-                  </a>
+            </div>
+            <!--<div class="col-inner-kit col-sm-6">
+              <div class="card">
+                <div class="card-header"><h3>Créer une dictée dans un conteneur</h3></div>
+                <div class="card-body">
+                  <p>Avec une piste de correction</p>
+                  <a href="redactionlibre.html" class="btn btn-primary">Voir l'exemple</a>
                 </div>
+                <div class="card-footer">2 days ago</div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mix quiz audio image feedback kit-quiz">
-                <div class="col-inner col-inner-kit">
-                  <a href="questionSonImage.html">
-                    <div class="img-kitdevquiz"></div>
-                    <h4>Question avec audio et image </h4>
-                    <p>Image et son dans la question et dans le feedback</p>
-                  </a>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mix quiz redaction kit-quiz">
-                <div class="col-inner col-inner-kit">
-                  <a href="redactionlibre.html">
-                    <div class="img-kitdevquiz"></div>
-                    <h4>Créer un exercice de redaction</h4>
-                    <p>Avec une piste de correction</p>
-                  </a>
-                </div>
-              </div>
-              <!--<div class="col-sm-6 col-md-4 col-lg-3 mix column-yes">
-                <div class="col-inner col-inner-kit">
-                  <a href="question-sons.html">
-                    <div class="img-kitdevlist"></div>
-                    <h4>Créer une dictée dans un conteneur</h4>
-                    <p>Lorem ipsum dolor sit amet. Ut harum Quis ex repe</p>
-                  </a>
-                </div>
-              </div>-->
+            </div>
+          </div>-->
+        </div>
+      </section>
 
+
+      <!-- Cas utilisation cours -->
+      <section id="kit-dev-cours" class="kit-dev bg1">
+        <div class="container-fluid">
+          <div class="section-title">
+            <h2>... dans des Cours</h2>
+          </div>
+          <div class="col-inner-kit col-sm-6">
+            <div class="card">
+              <div class="card-header"><h3>Comment ajouter une legende sous une image</h3></div>
+              <div class="card-body">
+                <p>....</p>
+                <a href="legendeImg.html" class="btn btn-primary">Voir l'exemple</a>
+              </div>
+              <div class="card-footer">...
+              </div>
             </div>
           </div>
-        </section>
+          <div class="col-inner-kit col-sm-6">
+            <div class="card">
+              <div class="card-header"><h3>Comment créer un bloc de mise en évidence</h3></div>
+              <div class="card-body">
+                <p>Mettre en evidence du texte par un cadre</p>
+                <a href="bloc-important.html" class="btn btn-primary">Voir l'exemple</a>
+              </div>
+              <div class="card-footer">...</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
         <!-- Footer Start -->
         <footer class="footer-section">
@@ -177,7 +216,7 @@
                 </a>
               </div>
               <div class="col col-lg-12">
-                <p>Version du site : 1.1</p>
+                <p>Version du site : 2.0</p>
               </div>
             </div>
           </div>

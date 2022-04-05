@@ -9,7 +9,7 @@
 
 #banner-img {
   background-image: url(../images/illustration/fond.png);
-  background-position-x: 50%;
+  background-position-x: 90%;
   background-position-y: 30%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -145,13 +145,12 @@ iframe {
 
 #kitdev-img {
   background-image: url(../../assets/images/illustration/kitdev.png);
-  background-position-x: 50%;
-  background-position-y: 30%;
+  background-position-x: 70%;
   background-repeat: no-repeat;
   background-size: contain;
   bottom: 0;
   box-sizing: border-box;
-  min-height: 300px;
+  min-height: 360px;
 }
 
 #kitdevdetail-img {
@@ -165,54 +164,54 @@ iframe {
   min-height: 300px;
 }
 
-.img-kitdevcours {
-  background-image: url(../../assets/images/illustration/cours.png);
-  background-position-x: 50%;
-  background-position-y: 30%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  bottom: 0;
-  box-sizing: border-box;
-  min-height: 180px;
+.kit-dev {
+  padding-bottom: 50px;
 }
 
-.img-kitdevquiz {
-  background-image: url(../../assets/images/illustration/quiz.png);
-  background-position-x: 50%;
-  background-position-y: 30%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  bottom: 0;
-  box-sizing: border-box;
-  min-height: 180px;
+#exemple-cas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .col-inner-kit {
-  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-  min-height: 345px !important;
+  padding: 10px !important;
+  text-align: left;
 }
-.col-inner-kit:hover {
-  top: -5px;
-  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-  border-radius: 2px 2px 2px 40px;
-  -webkit-transition: all 0.6s ease-in-out;
-  transition: all 0.6s ease-in-out;
+.col-inner-kit .card {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
 }
-.col-inner-kit p {
-  padding: 15px 0 10px 0 !important;
-  font-size: 14px !important;
+.col-inner-kit .card .card-header {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
-
-.kit-cours {
-  color: #7cc3ce;
+.col-inner-kit .card .card-header h3 {
+  font-size: 17px;
+  margin: 5px 0px;
 }
-
-.kit-quiz {
-  color: rgba(174, 202, 207, 0.8);
+.col-inner-kit .card .card-body {
+  padding: 10px;
+  min-height: 110px;
 }
-.kit-quiz .col-inner {
-  border: 1px solid rgba(174, 202, 207, 0.8);
-  border-top: 0.5rem solid currentColor;
+.col-inner-kit .card .card-body p {
+  padding-top: 5px !important;
+}
+.col-inner-kit .card .card-footer {
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+.col-inner-kit .card .card-footer .badge {
+  padding: 3px;
+  font-size: 75%;
+  font-weight: normal;
+  border-radius: 3px;
+}
+.col-inner-kit .card .card-footer .motclef-conteneur {
+  background-color: #7CC3CE;
 }
 
 .lien-navigation {
@@ -485,8 +484,12 @@ body {
   background: #F4F4F4;
 }
 
-.blod {
+.bold {
   font-weight: bold;
+}
+
+.left {
+  text-align: left;
 }
 
 /* Pages listing
@@ -540,7 +543,7 @@ body {
 }
 
 .column-yes {
-  color: #7cc3ce;
+  color: #7CC3CE;
 }
 
 .column-no {
