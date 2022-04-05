@@ -165,7 +165,13 @@ iframe {
 }
 
 .kit-dev {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+#exemple-cas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .col-inner-kit {
@@ -188,6 +194,10 @@ iframe {
 }
 .col-inner-kit .card .card-body {
   padding: 10px;
+  min-height: 110px;
+}
+.col-inner-kit .card .card-body p {
+  padding-top: 5px !important;
 }
 .col-inner-kit .card .card-footer {
   padding: 10px 15px;
@@ -474,8 +484,12 @@ body {
   background: #F4F4F4;
 }
 
-.blod {
+.bold {
   font-weight: bold;
+}
+
+.left {
+  text-align: left;
 }
 
 /* Pages listing
