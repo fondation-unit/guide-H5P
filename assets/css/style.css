@@ -10397,19 +10397,18 @@ iframe {
   min-height: 300px;
 }
 
-.mix-donnees {
+.mix-donnees,
+.donnees-section {
   height: auto;
 }
-.mix-donnees .col-inner-donnees {
-  display: inline-block;
-  vertical-align: top;
-  border-radius: 10px 10px 10px 10px;
-  min-height: 220px;
-  background: #fff;
-  position: relative;
-  padding: 10px;
-  width: 100%;
-  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+.mix-donnees .col-inner-donnees,
+.donnees-section .col-inner-donnees {
+  background: rgba(124, 195, 206, 0.3);
+  padding: 55px 15px 55px 15px;
+  width: auto;
+  border-radius: 20px;
+  box-shadow: 8px 10px 15px 0px rgba(90, 91, 95, 0.3);
+  margin: 30px;
 }
 
 .mix {
