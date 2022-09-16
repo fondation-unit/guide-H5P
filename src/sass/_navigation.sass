@@ -2,19 +2,16 @@
     width: 100%
     left: 0
     top: 0
-    background: $bgNav
+    background: $nav-color
     position: fixed
     z-index: 9999
-    -webkit-transition: all 0.4s ease-out
-    transition: all 0.4s ease-out
+    +transition(all, 0.4s, ease-out)
     a
         color: white
     
 .typed-cursor
     opacity: 1
-    -webkit-animation: blink 0.7s infinite
-    -moz-animation: blink 0.7s infinite
-    animation: blink 0.7s infinite
+    +animation(blink, 0.7s, infinite)
 
 .slogan
     padding-top: 28px
@@ -24,7 +21,7 @@
         font-weight: 900
         font-size: 14px
         text-decoration: none
-        font-family: 'Caveat', sans-serif
+        font-family: $main-font
     
 .navigation-menu
     .slogan
@@ -41,7 +38,6 @@
                 font-weight: 600
                 float: right !important
                 list-style: none
-            
 
 @media screen and (max-width: 770px)
     .choix-navigation,
@@ -52,10 +48,13 @@
         padding: 0px 
         padding-right:  0px !important
         width: 100%
-    .navbar-toggle .icon-bar
-        background: $footerText
-    .navigation-background .navbar-toggle .icon-bar
-        background: white
+    .navbar-toggle
+        .icon-bar
+            background: $footer-text
+    .navigation-background
+        .navbar-toggle
+            .icon-bar
+                background: $white
     .navbar-toggle
         margin-right: 0px
         margin-top: -30px !important
@@ -67,9 +66,9 @@
                 a
                     padding: 11px 15px
                     &:hover
-                        color: #24b662
+                        color: $green
     .navbar-collapse
         max-height: 420px
-        background: rgba(204 , 204 , 204, 0.6)
+        background: $magenta
         border: none !important
         box-shadow: none

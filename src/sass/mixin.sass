@@ -1,0 +1,8 @@
+@mixin transition($element, $duration, $transition)
+    -webkit-transition: $element $duration $transition
+    transition: $element $duration $transition
+
+@mixin animation($animation, $duration, $transition)
+    -webkit-animation: $animation $duration $transition
+    -moz-animation: $animation $duration $transition
+    animation: $animation $duration $transition

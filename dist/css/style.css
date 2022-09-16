@@ -10140,13 +10140,56 @@ readers do not read off random characters that represent icons */
   font-family: Caveat;
   src: url("../fonts/Caveat-Regular.ttf");
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+a:hover {
+  color: #369BD1 !important;
+  text-decoration: none !important;
+}
+a:focus {
+  outline: none;
+  text-decoration: none !important;
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  line-height: 32px;
+  font-size: 16px;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+iframe {
+  width: 100%;
+}
+
 .banner-section {
   padding: 150px 0 100px 0;
   background-color: white;
 }
 
 #banner-img {
-  background-image: url(../images/illustration/fond.png);
+  background-image: url("../images/illustration/fond.png");
   background-position-x: 90%;
   background-position-y: 30%;
   background-repeat: no-repeat;
@@ -10228,39 +10271,6 @@ readers do not read off random characters that represent icons */
   width: 80%;
 }
 
-a {
-  text-decoration: none;
-  color: #333333;
-}
-a:hover {
-  color: #369BD1 !important;
-  text-decoration: none !important;
-}
-a:focus {
-  outline: none;
-  text-decoration: none !important;
-  color: white;
-}
-
-img {
-  width: 100%;
-}
-
-p {
-  line-height: 32px;
-  font-size: 16px;
-}
-
-ul,
-li {
-  margin: 0;
-  padding: 0;
-}
-
-iframe {
-  width: 100%;
-}
-
 .footer-section {
   background: #666666;
   padding: 50px 0px;
@@ -10282,7 +10292,7 @@ iframe {
 }
 
 #kitdev-img {
-  background-image: url(../../dist/images/illustration/kitdev.png);
+  background-image: url("../../dist/images/illustration/kitdev.png");
   background-position-x: 70%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -10292,7 +10302,7 @@ iframe {
 }
 
 #kitdevdetail-img {
-  background-image: url(../../dist/images/illustration/kitdevdetail.png);
+  background-image: url("../../dist/images/illustration/kitdevdetail.png");
   background-position-x: 50%;
   background-position-y: 30%;
   background-repeat: no-repeat;
@@ -10387,7 +10397,7 @@ iframe {
 }
 
 #listing-img {
-  background-image: url(../../dist/images/illustration/listing.png);
+  background-image: url("../../dist/images/illustration/listing.png");
   background-position-x: 50%;
   background-position-y: 30%;
   background-repeat: no-repeat;
@@ -10417,11 +10427,11 @@ iframe {
 .mix .col-inner {
   display: inline-block;
   vertical-align: top;
-  border: 1px solid #7cc3ce;
+  border: 1px solid #7CC3CE;
   border-top: 0.5rem solid currentColor;
   border-radius: 2px 2px 40px 2px;
   min-height: 320px;
-  background: #fff;
+  background: #FFFFFF;
   position: relative;
   margin: 5px 0;
   padding: 10px;
@@ -10433,9 +10443,9 @@ iframe {
 .mix .col-inner:hover {
   top: -5px;
   border-radius: 2px 2px 2px 40px;
+  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
   -webkit-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
-  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
 }
 
 .navigation-background {
@@ -10504,7 +10514,7 @@ iframe {
   }
 
   .navigation-background .navbar-toggle .icon-bar {
-    background: white;
+    background: #FFFFFF;
   }
 
   .navbar-toggle {
@@ -10565,7 +10575,7 @@ iframe {
 }
 
 .vocabulaire-section .vocabulaire-img {
-  background-image: url(../../dist/images/illustration/exclamation.svg);
+  background-image: url("../../dist/images/illustration/exclamation.svg");
   background-position-x: 50%;
   background-position-y: 30%;
   background-repeat: no-repeat;
@@ -10579,16 +10589,6 @@ iframe {
   padding: 55px 15px 55px 15px;
   width: auto;
   border-radius: 20px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Poppins", sans-serif;
-  color: #333333;
 }
 
 body {
