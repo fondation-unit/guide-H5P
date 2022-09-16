@@ -3,12 +3,13 @@
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome"
 
-@import "colors"
-@import "fonts"
+// Imports
+@import "config"
+@import "utils"
+@import "mixin"
 @import "banner"
 @import "choix"
 @import "container"
-@import "elements"
 @import "footer"
 @import "kit"
 @import "liens"
@@ -16,7 +17,6 @@
 @import "mix"
 @import "navigation"
 @import "sections"
-@import "titles"
 
 
 body
@@ -25,7 +25,7 @@ body
     line-height: 24px
     letter-spacing: 1px
     height: 100%
-    font-family: 'Poppins', sans-serif !important
+    font-family: $title-font !important
     color: $text
 
 html,
@@ -132,4 +132,4 @@ body
 .exemple-title h2,
 .vocabulaire-section h2
     font-size: 3em
-    font-family: 'Caveat', sans-serif
+    font-family: $main-font

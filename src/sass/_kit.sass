@@ -1,5 +1,5 @@
 #kitdev-img
-    background-image: url(../../dist/images/illustration/kitdev.png)
+    background-image: url($img-kitdev)
     background-position-x: 70%
     background-repeat: no-repeat
     background-size: contain
@@ -8,7 +8,7 @@
     min-height: 360px
 
 #kitdevdetail-img
-    background-image: url(../../dist/images/illustration/kitdevdetail.png)
+    background-image: url($img-kitdevdetail)
     background-position-x: 50%
     background-position-y: 30%
     background-repeat: no-repeat
@@ -27,7 +27,7 @@
     text-align: left
     .card
         background-color: $white
-        border: 1px solid rgba(0,0,0,.125)
+        border: 1px solid $border-color
         border-radius: 5px
         min-height: 250px
         display: flex
@@ -37,8 +37,8 @@
             min-height: 50px
             flex-grow: 1
             padding: .75rem 1.25rem
-            background-color: rgba($black,.03)
-            border-bottom: 1px solid rgba($black,.125)
+            background-color: $card-bg
+            border-bottom: 1px solid $border-color
             h3
                 font-size: 17px
                 margin: 5px 0px
@@ -52,8 +52,8 @@
         .card-footer
             width: 100%
             padding: 10px 15px
-            background-color: rgba(0,0,0,.03)
-            border-top: 1px solid rgba(0,0,0,.125)
+            background-color: $card-bg
+            border-top: 1px solid $border-color
             align-content: flex-end
             .badge
                 padding: 3px 4px

@@ -5,8 +5,7 @@
     background: $main
     position: fixed
     z-index: 9999
-    -webkit-transition: all 0.4s ease-out
-    transition: all 0.4s ease-out
+    +transition(all, 0.4s, ease-out)
     a
         color: $text
     
@@ -20,7 +19,7 @@
         width: auto
         margin-bottom: 40px
         border: 0
-        font-family: 'Caveat', sans-serif
+        font-family: $main-font
     p
         font-weight: 400
         line-height: 25px
@@ -29,7 +28,7 @@
     
 .vocabulaire-section
     .vocabulaire-img
-        background-image: url(../../dist/images/illustration/exclamation.svg)
+        background-image: url($img-exclamation)
         background-position-x: 50%
         background-position-y: 30%
         background-repeat: no-repeat
