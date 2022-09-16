@@ -4,8 +4,8 @@
   "description": "Guide H5P",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch --no-source-map src/scss/styles.scss assets/css/style.css",
-    "sass:prod": "sass --no-source-map src/scss/styles.scss assets/css/style.css",
+    "sass": "sass --watch --no-source-map src/sass/main.sass dist/css/style.css",
+    "sass:prod": "sass --no-source-map src/sass/main.sass dist/css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

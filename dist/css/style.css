@@ -10282,7 +10282,7 @@ iframe {
 }
 
 #kitdev-img {
-  background-image: url(../../assets/images/illustration/kitdev.png);
+  background-image: url(../../dist/images/illustration/kitdev.png);
   background-position-x: 70%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -10292,7 +10292,7 @@ iframe {
 }
 
 #kitdevdetail-img {
-  background-image: url(../../assets/images/illustration/kitdevdetail.png);
+  background-image: url(../../dist/images/illustration/kitdevdetail.png);
   background-position-x: 50%;
   background-position-y: 30%;
   background-repeat: no-repeat;
@@ -10313,7 +10313,7 @@ iframe {
   text-align: left;
 }
 .col-inner-kit .card {
-  background-color: #fff;
+  background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 5px;
   min-height: 250px;
@@ -10387,7 +10387,7 @@ iframe {
 }
 
 #listing-img {
-  background-image: url(../../assets/images/illustration/listing.png);
+  background-image: url(../../dist/images/illustration/listing.png);
   background-position-x: 50%;
   background-position-y: 30%;
   background-repeat: no-repeat;
@@ -10427,14 +10427,12 @@ iframe {
   padding: 10px;
   width: 100%;
 }
-.mix .col-inner:hover {
-  border-radius: 2px 2px 2px 40px;
-}
 .mix .col-inner p {
   font-size: 1.2em;
 }
 .mix .col-inner:hover {
   top: -5px;
+  border-radius: 2px 2px 2px 40px;
   -webkit-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
   box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
@@ -10567,7 +10565,7 @@ iframe {
 }
 
 .vocabulaire-section .vocabulaire-img {
-  background-image: url(../../assets/images/illustration/exclamation.svg);
+  background-image: url(../../dist/images/illustration/exclamation.svg);
   background-position-x: 50%;
   background-position-y: 30%;
   background-repeat: no-repeat;
@@ -10615,8 +10613,6 @@ body {
   box-sizing: border-box;
 }
 
-/* section title, p, ul, li....
----------------------------------------------------------------------- */
 .container-fluid {
   padding-right: 45px !important;
   padding-left: 45px !important;
@@ -10638,8 +10634,6 @@ body {
   text-align: left;
 }
 
-/* Pages listing
----------------------------------------------------------------------- */
 .col-inner-donnees ul,
 .col-inner-donnees p {
   text-align: left;

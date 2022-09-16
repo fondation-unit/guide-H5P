@@ -1,0 +1,75 @@
+.navigation-background
+    width: 100%
+    left: 0
+    top: 0
+    background: $bgNav
+    position: fixed
+    z-index: 9999
+    -webkit-transition: all 0.4s ease-out
+    transition: all 0.4s ease-out
+    a
+        color: white
+    
+.typed-cursor
+    opacity: 1
+    -webkit-animation: blink 0.7s infinite
+    -moz-animation: blink 0.7s infinite
+    animation: blink 0.7s infinite
+
+.slogan
+    padding-top: 28px
+    a
+        text-transform: uppercase
+        letter-spacing: 3px
+        font-weight: 900
+        font-size: 14px
+        text-decoration: none
+        font-family: 'Caveat', sans-serif
+    
+.navigation-menu
+    .slogan
+        display: block !important
+    .navbar-nav
+        li
+            a
+                text-transform: uppercase
+                font-size: 12px
+                letter-spacing: 1px
+                padding: 30px 15px
+                -webkit-transition: .3s
+                transition: .3s
+                font-weight: 600
+                float: right !important
+                list-style: none
+            
+
+@media screen and (max-width: 770px)
+    .choix-navigation,
+    .lien-navigation
+          display: inline-block !important
+    .nav,
+    .container-nav
+        padding: 0px 
+        padding-right:  0px !important
+        width: 100%
+    .navbar-toggle .icon-bar
+        background: $footerText
+    .navigation-background .navbar-toggle .icon-bar
+        background: white
+    .navbar-toggle
+        margin-right: 0px
+        margin-top: -30px !important
+    .navbar
+        min-height: 0px
+    .navigation-menu
+        .navbar-nav
+            li
+                a
+                    padding: 11px 15px
+                    &:hover
+                        color: #24b662
+    .navbar-collapse
+        max-height: 420px
+        background: rgba(204 , 204 , 204, 0.6)
+        border: none !important
+        box-shadow: none
